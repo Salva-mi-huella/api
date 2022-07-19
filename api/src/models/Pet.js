@@ -14,8 +14,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     img: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
-      allowNull: false
+      type: DataTypes.ARRAY(DataTypes.STRING)
     },
     age: {
       type: DataTypes.STRING,
@@ -26,8 +25,8 @@ module.exports = (sequelize) => {
       allowNull: false
     },
     post_date: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.DATEONLY
+      type: DataTypes.DATEONLY,
+      defaultValue: DataTypes.NOW
     },
     description: {
       type: DataTypes.STRING,
