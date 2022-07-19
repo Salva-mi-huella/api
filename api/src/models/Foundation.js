@@ -13,6 +13,7 @@ module.exports = (sequelize) => {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
     },
     location:{
       type: DataTypes.STRING,
@@ -24,7 +25,6 @@ module.exports = (sequelize) => {
     },
     email:{
       type: DataTypes.STRING,
-      allowNull: false,
     },
     instagram:{
       type: DataTypes.STRING,
