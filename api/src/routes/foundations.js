@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const { postFoundation, getFoundations } = require("../controllers/foundations"); 
 
-router.get("/", (req, res) => {
-    res.send("Home")
-});
+router.post("/", postFoundation);
+router.get("/", getFoundations);
 
 module.exports = router;

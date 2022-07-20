@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const { postPet, getPets } = require('../controllers/pets');
 
-router.get("/", (req, res) => {
-    res.send("Home")
-});
+router.post("/", postPet);
+router.get("/", getPets);
 
 module.exports = router;
