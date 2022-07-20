@@ -11,9 +11,9 @@ const getPetsFoundation = async (req, res) => {
                 }
             }
         })
-        res.send(response)
+        res.json(response)
     } catch (error) {
-        res.status(404).send(error)
+        res.status(404).send("Pets not found")
     }
 }
 
