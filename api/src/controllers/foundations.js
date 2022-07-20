@@ -52,7 +52,20 @@ const getFoundations = async (req, res) => {
 	}
 }
 
+const deleteFoundation = async (req, res) => {
+	let { id } = req.params;
+	try {
+		let response = await Foundation.destroy({
+            where: {id}
+        })
+        res.json({message: `${response} foundation has been removed`})
+	} catch (error) {
+		res.status(404).json("Foundation not removed")
+	}
+}
+
 module.exports = {
 	postFoundation,
-    getFoundations
+    getFoundations,
+	deleteFoundation
 }
