@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const {postNews, getNews} = require('../controllers/news');
 
-router.get("/", (req, res) => {
-    res.send("Home")
-});
+router.post("/", postNews);
+router.get("/", getNews);
 
 module.exports = router;
