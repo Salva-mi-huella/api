@@ -4,9 +4,30 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('news', {
-    name: {
+    id:{
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    title:{
       type: DataTypes.STRING,
       allowNull: false,
     },
+    description: {
+      type: DataTypes.STRING,
+    },
+    little_description: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    post_date: {
+      type: DataTypes.DATEONLY,
+      defaultValue: DataTypes.NOW
+    },
+    images: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
+    },
+  },{
+    timestamps: false,
   });
 };
