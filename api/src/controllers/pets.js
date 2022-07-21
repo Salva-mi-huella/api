@@ -1,10 +1,10 @@
 const { Pet, Foundation } = require("../db");
 
 const postPet = async (req, res) => {
-	const { name, age, genre, description, foundation } = req.body;
+	const { name, age, gender, description, foundation } = req.body;
 	
 	try {
-		if (!name || !age || !genre || !description) {
+		if (!name || !age || !gender || !description) {
 			return res.status(400).json({ message: "Missing data" });
 		}				
 		const pet = await Pet.create(req.body);
@@ -26,7 +26,6 @@ const getPets = async (req, res) => {
 				model: Foundation,
 				attributes: ["name"]
 			}
-
 		})
 
 		if (name) {

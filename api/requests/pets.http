@@ -7,7 +7,7 @@ Content-Type: application/json
     "type": "Perro",
     "images":["https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg"],
     "age": "4 meses",
-    "genre":"Macho",
+    "gender":"Macho",
     "post_date":"2022-07-18",
     "description":"Ojitos llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
     "foundation": 1
@@ -22,7 +22,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": ["https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"],
     "age": "2 años",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-07-06",
     "description": "Muchos ya conocerán a nuestra hermosa Yuki. Ella es una gatita rescatada preñada del predio de Palermo hace casi 2 años. Es vif+ y desde su rescate hasta hoy tuvimos diversas consultas y estuvo bajo distintos tratamientos sin éxito, debido a diarreas intermitentes. Hace poco, Yuki comenzó a bajar de peso y el mes pasado tuvimos consulta con Amelia Gisbert, quien la derivó a la gastroenterologa Marta Zubaldía",
     "foundation": 2
@@ -37,7 +37,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://www.elcampitorefugio.org/imgs/uploaded/Slide_820640.jpg"],
     "age": "6 años",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-05-01",
     "description": "La historia de Loba es una de las más tristes que nos ha tocado enfrentar. Fue rescatada del zoonosis de Morón junto a sus bebés, ya que no podían seguir encerrados en esas jaulas espantosas. Todo parecía ir bien. Sus bebés fueron adoptados y ella también logró cerrar su círculo. Pero esa alegría no duraría mucho debido a que, después de un tiempo, nuestra Lobita escapó de la casa de sus adoptantes. La buscamos muchísimo, movimos cielo y tierra hasta que, por medio de un alerta, nos enteramos que Lobita había sido atropellada por el tren. Lamentablemente, tuvimos que amputarle una de sus patas, aunque esto jamás fue un impedimento para ella ya que siempre se manejó perfectamente, como cualquier otro perrito. Pero en realidad, lo más triste de todo es que no pudimos devolver a Loba a sus adoptantes debido a que ellos jamás se preocuparon por encontrarla. Loba estaba debajo del andén de la estación que se encontraba a tan solo tres cuadras de su hogar, lo cual significa que mientras nosotros recorríamos calles y calles en su búsqueda, sus adoptantes ni siquiera intentaron buscarla. Gracias a Dios, pronto, y luego de la operación, Loba se convirtió en una perra hermosa, fuerte y dulce. Y, como tanto se merecía, encontró una familia que supo ver más allá y que se enamoró perdidamente de ella. Hoy, Loba disfruta, al fin, del calor de un verdadero hogar.",
     "foundation": 3
@@ -52,7 +52,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": [ "https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"],
     "age": "4 meses",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2018-03-18",
     "description": "Ojitos llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
     "foundation": 4
@@ -67,7 +67,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": [ "https://www.siemprecontigoprotectora.org/wp-content/uploads/2021/11/20211113_113442-scaled-750x422.jpg"],
     "age": "1 año",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2021-07-20",
     "description": "Muchos ya conocerán a nuestra hermosa Nieve. Ella es una gatita rescatada preñada del predio de Palermo hace casi 2 años. Es vif+ y desde su rescate hasta hoy tuvimos diversas consultas y estuvo bajo distintos tratamientos sin éxito, debido a diarreas intermitentes. Hace poco, Yuki comenzó a bajar de peso y el mes pasado tuvimos consulta con Amelia Gisbert, quien la derivó a la gastroenterologa Marta Zubaldía",
     "foundation": 5
@@ -82,7 +82,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://http2.mlstatic.com/D_NQ_NP_877565-MLA49738888691_042022-V.jpg"],
     "age": "6 años",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-06-03",
     "description": "El estado de Layza al ingresar al refugio era simplemente impactante. Con una cuerda muy gruesa atada al cuello, llegó con un tumor que había afectado la mandíbula y que estaba desgarrando la piel. Como si fuera poco, Layza era también víctima de una bacteria que estaba alimentándose de su piel y tenía varias infecciones. Poco a poco, luego de extraerle el tumor, empezó a comer alimento sólido y ¡cómo le gustaba! Sus ojos comenzaron a brillar llenos de esperanza. Fue en el refugio que conoció a su mamá, una persona maravillosa que cada sábado le costaba cada vez más dejarla en su canil. Hoy, esta dulzura vive en un hogar hermoso, rodeada del calor de una verdadera familia.",
     "foundation": 6
@@ -97,7 +97,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://www.opencity.tv/wp-content/uploads/2020/11/perro.jpg"],
     "age": "8 meses",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2022-01-12",
     "description": "Oro fue rescatado cuando estaba vagando por los alrededores de la autopista camino a Pilar. Las zonas del cuello y de la oreja estaban completamente agusanadas. No podemos ni comenzar a imaginarnos el dolor que seguramente estaba sintiendo en ese momento. Pero después de muchos cuidados, mucha paciencia y, más que nada, toneladas de amor, Oro fue recuperándose hasta llegar a convertirse en un perro bellísimo y fuerte. Hoy, después de tanto dolor, Oro duerme feliz en el calor de un hogar y rodeado de una familia que lo ama como se merece y que no dudó en devolverle la dignidad que jamás debió haber perdido.",
     "foundation": 7
@@ -112,7 +112,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://cdn.wamiz.fr/article/images/ES%20PHOTOS/PERROS/perro-en-adopcion.jpg"],
     "age": "7 años",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-02-07",
     "description": "Bella tiene 7 años, es hembra y está castrada. Es súper buena y dócil, hace un montón está en el refugio y se merece el mejor hogar. Se lleva súper con gatos, niñxs y perros! Si te enamoraste de esta gorda hermosa, contactanos",
     "foundation": 6
@@ -127,7 +127,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": ["https://instagram.fepa9-2.fna.fbcdn.net/v/t51.2885-15/286186826_176198898147096_3566576875592925352_n.webp?stp=dst-jpg_e35_p750x750_sh0.08&_nc_ht=instagram.fepa9-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=G4qK2kVdRGoAX-7kZtq&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg1NjEwMzQzOTg4NjgyMzU3Mg%3D%3D.2-ccb7-5&oh=00_AT-9G3vJL7ht-8Izopo_cP5L2YGQfeOzQweJxMnEKFvVdg&oe=62DF29D4&_nc_sid=30a2ef"],
     "age": "2 años",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2021-12-10",
     "description": "Nina se encuentra en adopción responsable. Nina es la madre de todos los bebés que rescatamos de la basura en el mes de febrero junto a su cría. Es una hembra de 2 años que la castramos y ahora está lista para encontrar una familia para toda la vida. Está desparasitada y con pipeta. Le encanta jugar, pide mimos todo el tiempo, se sube a todos lados, es hermosa y un amor de gatita. Si te enamoraste de Nina del amor, contactanos.",
     "foundation": 5
@@ -142,7 +142,7 @@ Content-Type: application/json
     "type":"Perro",
     "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/American_Bulldog_Tank.jpg/2048px-American_Bulldog_Tank.jpg"],
     "age": "4 años",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2022-04-12",
     "description": "Saint, un bulldog americano, tiene dos balas en su cabeza. Paula Ferreira, veterinaria de una clínica en el oeste, trató a Saint. 'Su estado de vida es totalmente critico, pero creemos que podes salvar su vida', comunicó Ferreyra. Si ustedes pueden ayudarnos a tener algo de dinero y recaudar dinero para él, sería increíble. 'También adoptantes, va a haber una solicitud, así que ayúdanos, por favor, por favor ayúdenos', dijo González",
     "foundation": 4
@@ -157,7 +157,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://www.proyecto4patas.org/wp-content/uploads/photo-gallery/imported_from_media_libray/Kano.jpeg?bwg=1656963136"],
     "age": "5 años",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2022-07-10",
     "description": "Kano esta esperando que lo vengas a buscar!",
     "foundation": 3
@@ -172,7 +172,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://ayudacan.org/wp-content/uploads/2022/01/lazaro_1-169x300.webp"],
     "age": "7 años",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2021-11-20",
     "description": "A finales de junio te contamos la historia de “Lázaro” en Ayudacan, en ese momento aún no tenía nombre y su pronóstico no era favorable. El perro había sido abandonado fuera del terreno de Marcelo, un vecino de Los Bretes, que lo rescató y lo llevó al veterinario.Lázaro no podía movilizarse por sus propios medios, fue llevado a la veterinaria y comenzó un tratamiento. Todavía debe pasar otra semana allí.El perro tendría posibilidades de volver a caminar, pero se sabrá con seguridad al finalizar con los tratamientos. “Lázaro” necesita tránsito o adopción responsable urgente ya que al salir de la veterinaria debe estar en un lugar adecuado para finalizar su recuperación.",
     "foundation": 1
@@ -187,7 +187,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://ayudacan.org/wp-content/uploads/2022/01/kronos_portada-300x300.webp"],
     "age": "3 años",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2022-04-09",
     "description": "Kronos es un pequeño animal super cariñoso que le encanta jugar con su pelota.",
     "foundation": 7
@@ -202,7 +202,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": ["https://www.cronica.com.ar/__export/1646915258169/sites/cronica/img/2022/03/10/gatos_naranjas_1_crop1646915099563.jpg_139781018.jpg"],
     "age": "5 años",
-    "genre": "Macho",
+    "gender": "Macho",
     "post_date": "2022-06-17",
     "description": "Este hermoso gatito está en los bosques de palermo. Se encuentra muy flaquito y solo, pero es super cariñoso. Necesitamos un tránsito para poder sacarlo de ahi, castrarlo, y poder conseguirle un hogar",
     "foundation": 2
@@ -217,7 +217,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": ["https://http2.mlstatic.com/D_NQ_NP_649924-MLA49748480547_042022-V.jpg"],
     "age": "5 meses",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-07-21",
     "description": "Ahri es una gata de apenas 5 meses de edad, que fue abandonado con tres meses. Especialmente sensible, ahora se encuentra en un centro veterinario luchando contra la gran tristeza en la que está sumido que le lleva a no comer ni beber por sus propios medios., pedimos una adopción urgente para ella.",
     "foundation": 5
@@ -232,7 +232,7 @@ Content-Type: application/json
     "type": "Gato",
     "images": ["https://cf.ltkcdn.net/gatos/images/orig/253707-1600x1030-loables-asociaciones-rescate-gatos-ragdoll.jpg"],
     "age": "8 meses",
-    "genre": "Hembra",
+    "gender": "Hembra",
     "post_date": "2022-02-13",
     "description": "Yummi, una gatita muy cariñosa de apenas 8 meses a quien le encanta jugar con su bolita de lana, necesita un hogar de tránsito para poder recibir todo el amor que se merece.",
     "foundation": 6
