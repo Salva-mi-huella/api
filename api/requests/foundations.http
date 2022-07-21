@@ -1,0 +1,121 @@
+### Foundation 1
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Refugio el Campito",
+    "location": "Esteban Echeverría, Buenos Aires",
+    "telephone_number": "(450) 247-5896",
+    "email": "adoptantesdelcampito@gmail.com",
+    "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwmw5IV-QZQYxsDDt9T1md0mxO7RmYrW6YBxVJLRkyRsvZe5ch6uzxd-hXGOXgWbeZrfg&usqp=CAU"
+    ],
+    "website": "https://www.elcampitorefugio.org/",
+    "instagram": "https://www.instagram.com/refugioelcampito/",
+    "password": "12345"
+}
+
+### Foundation 2
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Gatitos de Palermo",
+    "location": "Esteban Echeverría, Buenos Aires",
+    "telephone_number": "(240) 824-8794",
+    "email": "wotagoy136@falsy.com",
+    "images": [
+        "https://scontent-eze1-1.xx.fbcdn.net/v/t1.18169-9/13501833_490423977819735_2259851025882273895_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFkhatD5oyU2J17g_hPWUtZmq2-_rO-71Warb7-s77vVddDZOIKLGuGaUHK3wMhdkGr6WCFAVwlvz_I9ylCq0oI&_nc_ohc=WqW8dkFRzQUAX-J94vn&_nc_ht=scontent-eze1-1.xx&oh=00_AT_4O81sT1UfBXGDg2FQ2J4bcYTw_FigU7-eeMgW1Y4E5g&oe=6300A1C1"
+    ],
+    "website": null,
+    "instagram": "https://www.instagram.com/gatitosdepalermo/?hl=es",
+    "password": "12345"
+}
+
+### Foundation 3
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "El Campito Felino de Belgrano",
+    "location": "El Campito Felino de Belgrano",
+    "telephone_number": "11-6014-1347",
+    "email": "elcampitofelino@yahoo.com",
+    "images": [
+        "https://www.mibelgrano.com.ar/wp-content/uploads/2020/08/Campito-Felino.jpg"
+    ],
+    "website": "https://www.mibelgrano.com.ar/index.php/2020/08/19/el-campito-felino-de-belgrano/",
+    "instagram": "https://www.instagram.com/elcampitofelino/?hl=es",
+    "password": "12345"
+}
+
+### Foundation 4
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Naricitas Frias",
+    "location": "Temperley, Buenos Aires",
+    "telephone_number": "+54 9 11 5761-0101",
+    "email": "info@naricitasfrias.com.ar",
+    "images": [
+        "https://lh5.googleusercontent.com/p/AF1QipOXxWoLPJGsi2cOkeJj9z7aJebKh5jBJXe9b5U4"
+    ],
+    "website": "https://www.naricitasfrias.com.ar/",
+    "instagram": null,
+    "password": "12345"
+}
+
+### Foundation 5
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Refugio Feliz",
+    "location": "Moreno, Buenos Aires",
+    "telephone_number": "1161812944",
+    "email": "refugiofelizadopciones@gmail.com",
+    "images": [
+        "https://d1fdloi71mui9q.cloudfront.net/BL4v9x9gTv6GDtJV4idA_p1d9fv755y4O1F6Z",
+        "https://static.wixstatic.com/media/360685_d863fbdb4fb24d5da0555d0e1550a675~mv2.jpeg/v1/crop/x_0,y_55,w_984,h_1218/fill/w_112,h_131,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/360685_d863fbdb4fb24d5da0555d0e1550a675~mv2.jpeg"
+     ],
+    "website": "https://refugiofelizoficia.wixsite.com/refugiofeliz/inicio",
+    "instagram": "https://www.instagram.com/refugiofelizoficial/?hl=es",
+    "password": "12345"
+}
+
+### Foundation 6
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Proyecto 4 patas",
+    "location": "CABA, Buenos Aires",
+    "telephone_number": "(992) 883-3934",
+    "email": "info@proyecto4patas.org",
+    "images": [
+        "https://www.proyecto4patas.org/wp-content/uploads/2017/11/twitter-10-a%C3%B1os-info.jpg",
+        "https://www.proyecto4patas.org/wp-content/uploads/2020/04/LOGO-REDUCCION-1-CAPA1.png"
+    ],
+    "website": "https://www.proyecto4patas.org/",
+    "instagram": "https://www.instagram.com/proyecto4patas/",
+    "password": "12345"
+}
+
+### Foundation 7
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Ayudacan",
+    "location": "Almagro, Buenos Aires",
+    "telephone_number": "011 15-5617-9472",
+    "email": "mascotasenadopcionargentina@gmail.com",
+    "images": [
+        "https://ayudacan.org/wp-content/uploads/2022/01/ayudacan-favicon-512-300x300.png",
+        "http://1.bp.blogspot.com/_fASTP_hh304/SmfNmdj-TZI/AAAAAAAABA0/SIyEP1YttO0/s320/ayudacan+logo+chico-725567.JPG"
+    ],
+    "website": "https://ayudacan.org/",
+    "instagram": "https://www.instagram.com/ayudacan/?hl=es",
+    "password": "12345"
+}
