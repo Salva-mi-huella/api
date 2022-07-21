@@ -17,6 +17,4 @@ DB_NAME=your_name_db
   1. foundations.http
   2. pets.http
   3. news.http
-```
-
 - Listo!, ya pueden interactuar con la base de datos :)
