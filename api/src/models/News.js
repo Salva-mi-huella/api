@@ -14,7 +14,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(3000),
     },
     little_description: {
       type: DataTypes.STRING,
@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
       defaultValue: DataTypes.NOW
     },
     images: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.ARRAY(DataTypes.STRING(1234)),
     },
   },{
     timestamps: false,
