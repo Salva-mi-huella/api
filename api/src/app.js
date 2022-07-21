@@ -3,6 +3,17 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
+const { auth } = require('express-openid-connect');
+
+const config = {
+  authRequired: false,
+  auth0Logout: true,
+  secret: 'dXqXoUpYazcOtwJ4W-81OpwgJbyvouUbX_gnmniqnWeYKbSHWs8pybKEiz9Dp3VF',
+  baseURL: 'http://localhost:4000',
+  clientID: 'Cl7kaHbUURkv04ZmaM6f7vX52dmquemV',
+  issuerBaseURL: 'https://dev-wk3i92w8.us.auth0.com'
+};
+
 
 require('./db.js');
 
@@ -10,6 +21,7 @@ const server = express();
 
 server.name = 'API';
 
+server.use(auth(config));
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());

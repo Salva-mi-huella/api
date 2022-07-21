@@ -27,6 +27,9 @@ module.exports = (sequelize) => {
     picture: {
       type: DataTypes.STRING
     },
+    city: {
+      type: DataTypes.STRING
+    },
     dni: {
       type: DataTypes.INTEGER,
       unique: true
@@ -34,9 +37,16 @@ module.exports = (sequelize) => {
     telephone_number: {
       type: DataTypes.STRING,
     },
-    adopter: {
+    address: {
+      type: DataTypes.STRING,
+    },
+    transit: {
       type: DataTypes.BOOLEAN,
       defaultValue: false
+    },
+    points: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0
     },
     rol: {
       type: DataTypes.STRING,

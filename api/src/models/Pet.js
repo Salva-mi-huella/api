@@ -14,7 +14,11 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     images: {
-      type: DataTypes.ARRAY(DataTypes.STRING)
+      type: DataTypes.ARRAY(DataTypes.STRING(8000))
+    },
+    type: {
+      type: DataTypes.ENUM("Perro", "Gato"),
+      allowNull: false
     },
     age: {
       type: DataTypes.STRING,
@@ -29,7 +33,7 @@ module.exports = (sequelize) => {
       defaultValue: DataTypes.NOW
     },
     description: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(8000),
       allowNull: false
     },
     adopted: {

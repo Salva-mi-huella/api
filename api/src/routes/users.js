@@ -1,8 +1,9 @@
 const express = require('express');
+const { postUser } = require('../controllers/users');
+const { requiresAuth } = require('express-openid-connect');
+
 const router = express.Router();
 
-router.get("/", (req, res) => {
-    res.send("Home")
-});
+// router.post("/", requiresAuth() , postUser);
 
 module.exports = router;
