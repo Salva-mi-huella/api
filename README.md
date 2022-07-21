@@ -14,7 +14,7 @@ DB_NAME=your_name_db
 - Instalar extensión "REST client".
 - Correr archivos que esten en carpeta "/requests", para crear foundations/news/pets, dando click en cada petición (es IMPORTANTE el orden de los archivos, al menos el    primero).
   ```env
- 1. foundations.http
- 2. pets.http
- 3. news.http
+  1. foundations.http
+  2. pets.http
+  3. news.http
 - Listo!, ya pueden interactuar con la base de datos :)
