@@ -45,7 +45,26 @@ const getPets = async (req, res) => {
 	}
 }
 
+const getPet = async (req, res) => {
+	const { id } = req.params;
+
+	try {
+		const pet = await Pet.findByPk(id, {
+			include: {
+				model: Foundation,
+				attributes: ["name"]
+			}
+		});
+	
+		pet ? res.json(pet) : res.status(400).json({ message: "Pet not found" });
+	}
+	catch (error) {
+		res.status(404).json({ message: error.message });
+	}
+}
+
 module.exports = {
 	postPet,
-	getPets
+	getPets,
+	getPet
 }

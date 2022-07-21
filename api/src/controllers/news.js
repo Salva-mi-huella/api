@@ -37,7 +37,26 @@ const getNews = async (req,res) =>{
     }
 }
 
+const getNew = async (req, res) => {
+	const { id } = req.params;
+
+	try {
+		const foundNew = await News.findByPk(id, {
+            include: {
+                model: Foundation,
+                attributes: ["name"]
+            }
+        });
+	
+		foundNew ? res.json(foundNew) : res.status(400).json({ message: "New not found" });
+	}
+	catch (error) {
+		res.status(404).json({ message: error.message });
+	}
+}
+
 module.exports = {
     postNews,
-    getNews
+    getNews,
+    getNew
 }

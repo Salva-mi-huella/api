@@ -51,7 +51,26 @@ const getFoundations = async (req, res) => {
 	}
 }
 
+const getFoundation = async (req, res) => {
+	const { id } = req.params;
+
+	try {
+		const foundation = await Foundation.findByPk(id, {
+            include: {
+                model: Pet,
+                attributes: ["id","name"]
+            }
+        });
+		
+		foundation ? res.json(foundation) : res.status(400).json({ message: "Foundation not found" });
+	}
+	catch (error) {
+		res.status(404).json({ message: error.message });
+	}
+}
+
 module.exports = {
 	postFoundation,
-  getFoundations
+  	getFoundations,
+	getFoundation
 }
