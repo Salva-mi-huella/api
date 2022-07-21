@@ -4,10 +4,10 @@ __IMPORTANTE:__ Recuerden colocar en el archivo index.js ("force: false"), para 
 - Crear archivo .env
 - Crear variables en archivo .env y completarlo con sus credenciales.
 ```env
-DB_USER=usuariodepostgres
-DB_PASSWORD=passwordDePostgres
-DB_HOST=localhost
-DB_NAME=your_name_db
+ DB_USER=usuariodepostgres
+ DB_PASSWORD=passwordDePostgres
+ DB_HOST=localhost
+ DB_NAME=your_name_db
 ```
 - Crear database (nombre recomendable: "salva_mi_huella").
 - Levantar servidor con comando npm start
