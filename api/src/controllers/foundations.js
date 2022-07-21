@@ -13,12 +13,11 @@ const postFoundation = async (req, res) => {
 		if (!name || !location || !telephone_number || !password) {
 			return res.status(400).json({ message: "Missing data"});
 		}
-		else if (!nameExists) {
-			const foundation = await Foundation.create({ name, location, telephone_number, password, email, instagram, website, images });
-			return res.json(foundation);
-		}
 		
-		return res.status(400).json({ message: "Name already exists" });
+		if (nameExists) return res.status(400).json({ message: "Name already exists" });
+			
+		const foundation = await Foundation.create({ name, location, telephone_number, password, email, instagram, website, images });
+		return res.json(foundation);
 	} 
 	catch (error) {
 		res.status(404).json({ message: error.message });
@@ -32,7 +31,7 @@ const getFoundations = async (req, res) => {
 		let foundations = await Foundation.findAll({
 			include: {
 				model: Pet,
-				attributes: ["id", "name"]
+				attributes: ["id", "name", "images"]
 			}
 		});
 
@@ -54,5 +53,5 @@ const getFoundations = async (req, res) => {
 
 module.exports = {
 	postFoundation,
-    getFoundations
+  getFoundations
 }

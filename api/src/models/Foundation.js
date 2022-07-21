@@ -5,8 +5,8 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('foundation', {
     id:{
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
       primaryKey: true,
     },
     name: {
@@ -35,7 +35,7 @@ module.exports = (sequelize) => {
      
     },
     images:{
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.ARRAY(DataTypes.STRING(1234)),
     },
     password:{
       type: DataTypes.STRING,
