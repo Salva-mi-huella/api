@@ -1,4 +1,5 @@
 # PARA LEVANTAR BACK...
+__IMPORTANTE:__ Recuerden colocar en el archivo index.js ("force: false"), para que las tablas no se borren cuando su servidor se caiga.
 - NPM install
 - Crear archivo .env
 - Crear variables en archivo .env
