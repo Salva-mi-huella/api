@@ -2,10 +2,12 @@
 - NPM install
 - Crear archivo .env
 - Crear variables en archivo .env
-  1.DB_USER=USER_NAME
-  2.DB_PASSWORD=PASSWORD
-  3.DB_HOST=localhost:5432
-  4.DB_NAME=NAME
+```env
+DB_USER=usuariodepostgres
+DB_PASSWORD=passwordDePostgres
+DB_HOST=localhost
+DB_NAME=your_name_db
+```
 - Crear database (nombre recomendable: "salva_mi_huella").
 - Levantar servidor con comando npm start
 - Instalar extensión "REST client".
