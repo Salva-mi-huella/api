@@ -45,14 +45,14 @@ const getPets = async (req, res) => {
 	}
 }
 
-const getPet = async (req, res) => {
+const getPetByID = async (req, res) => {
 	const { id } = req.params;
 
 	try {
 		const pet = await Pet.findByPk(id, {
 			include: {
 				model: Foundation,
-				attributes: ["name"]
+				attributes: ["name", "images"]
 			}
 		});
 	
@@ -66,5 +66,5 @@ const getPet = async (req, res) => {
 module.exports = {
 	postPet,
 	getPets,
-	getPet
+	getPetByID
 }
