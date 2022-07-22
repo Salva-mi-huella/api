@@ -21,7 +21,7 @@ const getNews = async (req,res) =>{
         let news = await News.findAll({
             include: {
                 model: Foundation,
-                attributes: ["name"]
+                attributes: ["name", "images"]
             }
         })
         if (name) {
@@ -58,5 +58,5 @@ const getNewByID = async (req, res) => {
 module.exports = {
     postNews,
     getNews,
-    getNew
+    getNewByID
 }
