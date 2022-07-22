@@ -24,7 +24,7 @@ const getPets = async (req, res) => {
 		let pets = await Pet.findAll({
 			include: {
 				model: Foundation,
-				attributes: ["name"]
+				attributes: ["name", "images"]
 			}
 		})
 
