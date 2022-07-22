@@ -21,7 +21,7 @@ const getNews = async (req,res) =>{
         let news = await News.findAll({
             include: {
                 model: Foundation,
-                attributes: ["name"]
+                attributes: ["name", "images"]
             }
         })
         if (name) {
@@ -37,7 +37,26 @@ const getNews = async (req,res) =>{
     }
 }
 
+const getNewByID = async (req, res) => {
+	const { id } = req.params;
+
+	try {
+		const foundNew = await News.findByPk(id, {
+            include: {
+                model: Foundation,
+                attributes: ["name", "images"]
+            }
+        });
+	
+		foundNew ? res.json(foundNew) : res.status(400).json({ message: "New not found" });
+	}
+	catch (error) {
+		res.status(404).json({ message: error.message });
+	}
+}
+
 module.exports = {
     postNews,
-    getNews
+    getNews,
+    getNewByID
 }
