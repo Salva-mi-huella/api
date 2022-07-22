@@ -37,14 +37,14 @@ const getNews = async (req,res) =>{
     }
 }
 
-const getNew = async (req, res) => {
+const getNewByID = async (req, res) => {
 	const { id } = req.params;
 
 	try {
 		const foundNew = await News.findByPk(id, {
             include: {
                 model: Foundation,
-                attributes: ["name"]
+                attributes: ["name", "images"]
             }
         });
 	
