@@ -25,7 +25,7 @@ Content-Type: application/json
     "gender": "Hembra",
     "post_date": "2022-07-06",
     "description": "Muchos ya conocerán a nuestra hermosa Yuki. Ella es una gatita rescatada preñada del predio de Palermo hace casi 2 años. Es vif+ y desde su rescate hasta hoy tuvimos diversas consultas y estuvo bajo distintos tratamientos sin éxito, debido a diarreas intermitentes. Hace poco, Yuki comenzó a bajar de peso y el mes pasado tuvimos consulta con Amelia Gisbert, quien la derivó a la gastroenterologa Marta Zubaldía",
-    "foundation": 2
+    "foundation": 5
 }
 
 ### Pet 3 
@@ -252,3 +252,202 @@ Content-Type: application/json
     "description": "Este lindo perrito que está en el parque Sarmiento. Se encuentra muy flaquito, pero es super amistoso. Necesitamos un tránsito para poder sacarlo de ahi y poder conseguirle un hogar",
     "foundation": 5
 }
+
+### Pet 18
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Cofler",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Cofler-1_qrdiza.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Cofler-2_lhtab7.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Cofler-3_xsyldk.png"],
+    "age": "2 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Mushu es un bebé de 4 meses y medio, ya está desparasitado, hace sus necesidades en las piedritas y espera a que lo elijas❣️. En poquitos días se queda sin tránsito 🙏🏻, nuestro mayor deseo es que ya pueda irse a una casita definitiva! Si cumplís con los requisitos y querés sumarlo a hogar dejanos un mensajito privado💌",
+    "foundation": 3
+}
+
+### Pet 19
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Hanabi",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Hanabi-1_s99mwh.png", "https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Hanabi-2_p9yoml.png", "https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Hanabi-3_sdrke3.png"],
+    "age": "2 años",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "¿Cómo no enamorarse de este pompón blanco? ❤️❤️❤️ Hanabi tiene 2 meses y medio, ya está desparasitada y hace sus necesidades en las piedritas 💪🏻 Si te enamoraste de ella y querés sumarla a tu familia dejanos un mensajito💌",
+    "foundation": 2
+}
+
+### Pet 20
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Humito",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Humito-1_hmjkwe.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Humito-2_jen9qo.png", "https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Humito-3_qlyign.png"],
+    "age": "3 meses",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "TRÁNSITO URGENTE - se quedan en la calle ‼️‼️‼️ Nuestra panterita se queda sin tránsito el lunes que viene y NO tenemos a dónde llevarlos!!!! Tiene aprox. 3 meses, necesitamos tránsito en una casa en dónde no haya otros gatitos, ya que estamos esperando el resultado de unos análisis.",
+    "foundation": 3
+}
+
+### Pet 21
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "José",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Jose-3_dgrrza.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Jos%C3%A9-1_oav0hw.png", "https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Jos%C3%A9-2_agatlv.png"],
+    "age": "3 meses",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Este bombón tiene aprox. 2 meses y está desparasitado. Si te gustan los michis mimosos, besadores y abrazadores profesionales, José es tu michi ideal. Si te enamoraste de él y querés sumarlo a tu familia dejanos un mensajito💌",
+    "foundation": 2
+}
+
+### Pet 22
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Kotaro",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530850/cats/Kotaro-1_cfd1bj.png", "https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Kotaro-2_ls81eb.png", "https://res.cloudinary.com/joaco/image/upload/v1658530850/cats/Kotaro-3_vhm1eq.png"],
+    "age": "4 meses",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "¿Cómo resistirse a éste bebote peludo?🥰 Kotaro tiene aprox. 3 meses, está desparasitado y hace sus necesidades en las piedritas💪🏻 Si enamoraste de él y querés adoptarlo dejanos mensajito privado💌",
+    "foundation": 2
+}
+
+### Pet 23
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Leia",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-1_yetosn.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-2_nz4hgd.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-3_a3sm4x.png"],
+    "age": "4 meses",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "¿Cómo resistirse a ésta bombona peluda?🥰 Leia tiene aprox. 4 meses, está desparasitada y hace sus necesidades en las piedritas💪🏻 Si enamoraste de ella y querés adoptarla dejanos mensajito privado💌",
+    "foundation": 2
+}
+
+### Pet 24
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Zafira",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Zafira-1_yibcwp.png", "https://res.cloudinary.com/joaco/image/upload/v1658530848/cats/Zafira-2_ojrhkf.png", "https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Zafira-3_rkrahx.png"],
+    "age": "1 año",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "Imposible resistirse a ella y a su carita que es todo un arte😍🎨 Zafi tiene 1 año, YA ESTÁ CASTRADA, desparasitada y hace sus necesidades en las piedritas💪🏻 Si te enamoraste de ella y querés sumarla a tu familia dejanos un mensajito privado💌",
+    "foundation": 2
+}
+
+### Pet 25
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Batman",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Batman-1_tborhd.png", "https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Batman-2_lb34ol.png", "https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Batman-3_pndhz8.png"],
+    "age": "6 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Soy macho, un poco grande, serio, pero puedo hacerte una gran compañía (y mi nombre es genial).",
+    "foundation": 1
+}
+
+### Pet 26
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Abel",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Abel-2_yu7d1r.png", "https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Abel-3_zotu70.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Abel_-1_jjrpr7.png"],
+    "age": "4 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Tengo mucha energía, amo jugar, puedo ser un poco bruto pero lo compenso con mucho amor. Me llevo muy bien con chicos y otros perros",
+    "foundation": 1
+}
+
+### Pet 27
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Abrojo",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Abrojo-1_qidjkk.png", "https://res.cloudinary.com/joaco/image/upload/v1658531530/dogs/Abrojo-2_dnmbca.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Abrojo-3_lmfdbe.png"],
+    "age": "2 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Soy un perro blanco, de tamaño mediano, y soy excelente compañía para mirar pelis y series. Me llevo muy buen con chicos.",
+    "foundation": 1
+}
+
+
+### Pet 28
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Bianca",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Bianca-1_q1pxzn.png", "https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Bianca-2_kunvxn.png", "https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Bianca-3_nvo3gt.png"],
+    "age": "1 año",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "Si bien mis patitas me fallaron, tengo mucha energía y estoy lista para ser tu mejor compañía, hasta me puse un pañuelo para salir más linda en las fotos!",
+    "foundation": 1
+}
+
+### Pet 29
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Uma",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531527/dogs/Braulio-1_yknkv8.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Braulio-2_phmaqb.png", "https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Braulio-3_yw4yl2.png"],
+    "age": "8 meses",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "Tengo un tamaño grande, me gusta la calma y la serenidad. ¡Soy ideal para la siesta! Me llevo bien con chicos y con otros perros.",
+    "foundation": 1
+}
+
+### Pet 30
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Jade",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Jade-1_ast7wc.png", "https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Jade-2_qk0cfl.png", "https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Jade-3_rfdvii.png"],
+    "age": "5 años",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "Mi tamaño es mediano, tengo un pelaje color beige y soy muy tranquilo. Me llevo muy bien con chicos y con otros perros.",
+    "foundation": 1
+}
+
+
+
