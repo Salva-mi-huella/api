@@ -51,7 +51,7 @@ const getFoundations = async (req, res) => {
 	}
 }
 
-const getFoundation = async (req, res) => {
+const getFoundationByID = async (req, res) => {
 	const { id } = req.params;
 
 	try {
@@ -72,5 +72,5 @@ const getFoundation = async (req, res) => {
 module.exports = {
 	postFoundation,
   	getFoundations,
-	getFoundation
+	getFoundationByID
 }
