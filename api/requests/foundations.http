@@ -42,7 +42,7 @@ Content-Type: application/json
     "telephone_number": "11-6014-1347",
     "email": "elcampitofelino@yahoo.com",
     "images": [
-        "https://www.mibelgrano.com.ar/wp-content/uploads/2020/08/Campito-Felino.jpg"
+        "https://img.freepik.com/vector-premium/cabeza-gato-lindo-logo-dibujos-animados-cabeza-gato-bueno-productos-relacionados-cuidado-gatos_487414-292.jpg"
     ],
     "website": "https://www.mibelgrano.com.ar/index.php/2020/08/19/el-campito-felino-de-belgrano/",
     "instagram": "https://www.instagram.com/elcampitofelino/?hl=es",
@@ -54,12 +54,12 @@ POST http://localhost:4000/foundations
 Content-Type: application/json
 
 {
-    "name": "Naricitas Frias",
+    "name": "Narices Frias",
     "location": "Temperley, Buenos Aires",
     "telephone_number": "+54 9 11 5761-0101",
     "email": "info@naricitasfrias.com.ar",
     "images": [
-        "https://lh5.googleusercontent.com/p/AF1QipOXxWoLPJGsi2cOkeJj9z7aJebKh5jBJXe9b5U4"
+        "https://scontent.fmdz4-1.fna.fbcdn.net/v/t1.6435-9/39229072_440775793085411_3835681862940884992_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=K79yZmiwIBYAX-GPQwW&_nc_ht=scontent.fmdz4-1.fna&oh=00_AT_8UBNzqY5Pv7rmlF6Qi9VaVRRNvvRti5lPTkTaW7E9Lw&oe=63007DAF"
     ],
     "website": "https://www.naricitasfrias.com.ar/",
     "instagram": null,
@@ -94,8 +94,7 @@ Content-Type: application/json
     "telephone_number": "(992) 883-3934",
     "email": "info@proyecto4patas.org",
     "images": [
-        "https://www.proyecto4patas.org/wp-content/uploads/2017/11/twitter-10-a%C3%B1os-info.jpg",
-        "https://www.proyecto4patas.org/wp-content/uploads/2020/04/LOGO-REDUCCION-1-CAPA1.png"
+        "https://scontent.fmdz4-1.fna.fbcdn.net/v/t1.6435-9/116420315_10158358571546047_911541206074533929_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1k7I3b539VgAX-QkLMq&tn=mq-cnAuxJwrm6pUn&_nc_ht=scontent.fmdz4-1.fna&oh=00_AT_SWshYdqoloYZf35MrREcv0ISUth_GJtIOKx0vLjVQXw&oe=62FF72FA"
     ],
     "website": "https://www.proyecto4patas.org/",
     "instagram": "https://www.instagram.com/proyecto4patas/",
@@ -117,5 +116,22 @@ Content-Type: application/json
     ],
     "website": "https://ayudacan.org/",
     "instagram": "https://www.instagram.com/ayudacan/?hl=es",
+    "password": "12345"
+}
+
+### Foundation 8
+POST http://localhost:4000/foundations
+Content-Type: application/json
+
+{
+    "name": "Patias Glew",
+    "location": "Argentina, Buenos Aires",
+    "telephone_number": "011 15-3613-2282",
+    "email": "patitasglew@hotmail.com",
+    "images": [
+        "https://scontent.fmdz5-1.fna.fbcdn.net/v/t1.6435-9/135285580_1147794825654429_2369208977162709237_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PFHbvPJvt4sAX_CnqWT&_nc_ht=scontent.fmdz5-1.fna&oh=00_AT9AdUPxqa6OkDExM_3GhsTycVDrMgcWOxOrBFJz3c9o_g&oe=62FEEFDC"
+    ],
+    "website": "https://patitasglew.org/",
+    "instagram": "https://www.instagram.com/patitasglew/?hl=es",
     "password": "12345"
 }
