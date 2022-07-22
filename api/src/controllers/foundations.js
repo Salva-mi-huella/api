@@ -58,7 +58,7 @@ const getFoundationByID = async (req, res) => {
 		const foundation = await Foundation.findByPk(id, {
             include: {
                 model: Pet,
-                attributes: ["id","name"]
+                attributes: ["id","name", "images"]
             }
         });
 		
