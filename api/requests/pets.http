@@ -3,13 +3,13 @@ POST http://localhost:4000/pets
 Content-Type: application/json
 
 {
-    "name": "Cafecito",
+    "name": "Agustin",
     "type": "Perro",
-    "images":["https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg"],
-    "age": "4 meses",
+    "images":["https://www.elcampitorefugio.org/imgs/uploaded/780878.jpg"],
+    "age": "4 años",
     "gender":"Macho",
     "post_date":"2022-07-18",
-    "description":"Ojitos llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
+    "description":"Agustín llegó al refugio sin un ojito. Es un perro muy mimoso y compañero.",
     "foundation": 1
 }
 
@@ -20,7 +20,7 @@ Content-Type: application/json
 {
     "name": "Yuki",
     "type": "Gato",
-    "images": ["https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"],
+    "images": ["https://i.pinimg.com/564x/7b/ad/d2/7badd22798ebcd391fd43850826c092a.jpg"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2022-07-06",
@@ -33,13 +33,13 @@ POST http://localhost:4000/pets
 Content-Type: application/json
 
 {
-    "name": "Loba",
-    "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/Slide_820640.jpg"],
-    "age": "6 años",
+    "name": "Kali",
+    "type": "Gato",
+    "images": ["https://www.huellascallejeras.com/wp-content/uploads/2020/10/mila-gato-en-adopcion-6-580x460.jpg"],
+    "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-05-01",
-    "description": "La historia de Loba es una de las más tristes que nos ha tocado enfrentar. Fue rescatada del zoonosis de Morón junto a sus bebés, ya que no podían seguir encerrados en esas jaulas espantosas. Todo parecía ir bien. Sus bebés fueron adoptados y ella también logró cerrar su círculo. Pero esa alegría no duraría mucho debido a que, después de un tiempo, nuestra Lobita escapó de la casa de sus adoptantes. La buscamos muchísimo, movimos cielo y tierra hasta que, por medio de un alerta, nos enteramos que Lobita había sido atropellada por el tren. Lamentablemente, tuvimos que amputarle una de sus patas, aunque esto jamás fue un impedimento para ella ya que siempre se manejó perfectamente, como cualquier otro perrito. Pero en realidad, lo más triste de todo es que no pudimos devolver a Loba a sus adoptantes debido a que ellos jamás se preocuparon por encontrarla. Loba estaba debajo del andén de la estación que se encontraba a tan solo tres cuadras de su hogar, lo cual significa que mientras nosotros recorríamos calles y calles en su búsqueda, sus adoptantes ni siquiera intentaron buscarla. Gracias a Dios, pronto, y luego de la operación, Loba se convirtió en una perra hermosa, fuerte y dulce. Y, como tanto se merecía, encontró una familia que supo ver más allá y que se enamoró perdidamente de ella. Hoy, Loba disfruta, al fin, del calor de un verdadero hogar.",
+    "description": "Quiero estar pegadita a los humanos todo el tiempo, no vaya a ser que pasen frío! Les hago compañía cuando trabajan, cuando cocinan y hasta cuando duermen.",
     "foundation": 3
 }
 
@@ -50,8 +50,8 @@ Content-Type: application/json
 {
     "name": "Maple",
     "type": "Gato",
-    "images": [ "https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"],
-    "age": "4 meses",
+    "images": [ "https://pbs.twimg.com/media/FXBNtjhXkAA87VX?format=jpg"],
+    "age": "7 meses",
     "gender": "Macho",
     "post_date": "2018-03-18",
     "description": "Ojitos llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
@@ -65,7 +65,7 @@ Content-Type: application/json
 {   
     "name": "Nieve",
     "type": "Gato",
-    "images": [ "https://www.siemprecontigoprotectora.org/wp-content/uploads/2021/11/20211113_113442-scaled-750x422.jpg"],
+    "images": [ "https://live.staticflickr.com/3227/5869530325_4d079315c8_z.jpg"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2021-07-20",
@@ -110,7 +110,7 @@ Content-Type: application/json
 {
     "name": "Bella",
     "type": "Perro",
-    "images": ["https://cdn.wamiz.fr/article/images/ES%20PHOTOS/PERROS/perro-en-adopcion.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/101103.jpg"],
     "age": "7 años",
     "gender": "Hembra",
     "post_date": "2022-02-07",
@@ -125,12 +125,12 @@ Content-Type: application/json
 {
     "name": "Nina",
     "type": "Gato",
-    "images": ["https://instagram.fepa9-2.fna.fbcdn.net/v/t51.2885-15/286186826_176198898147096_3566576875592925352_n.webp?stp=dst-jpg_e35_p750x750_sh0.08&_nc_ht=instagram.fepa9-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=G4qK2kVdRGoAX-7kZtq&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=Mjg1NjEwMzQzOTg4NjgyMzU3Mg%3D%3D.2-ccb7-5&oh=00_AT-9G3vJL7ht-8Izopo_cP5L2YGQfeOzQweJxMnEKFvVdg&oe=62DF29D4&_nc_sid=30a2ef"],
+    "images": ["https://img.miwuki.com/a/92SWY3/250"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2021-12-10",
     "description": "Nina se encuentra en adopción responsable. Nina es la madre de todos los bebés que rescatamos de la basura en el mes de febrero junto a su cría. Es una hembra de 2 años que la castramos y ahora está lista para encontrar una familia para toda la vida. Está desparasitada y con pipeta. Le encanta jugar, pide mimos todo el tiempo, se sube a todos lados, es hermosa y un amor de gatita. Si te enamoraste de Nina del amor, contactanos.",
-    "foundation": 5
+    "foundation": 3
 }
 
 ### Pet 10 
@@ -153,13 +153,13 @@ POST http://localhost:4000/pets
 Content-Type: application/json
 
 {
-    "name": "Kano",
+    "name": "Panchito",
     "type": "Perro",
-    "images": ["https://www.proyecto4patas.org/wp-content/uploads/photo-gallery/imported_from_media_libray/Kano.jpeg?bwg=1656963136"],
-    "age": "5 años",
+    "images": ["https://adopt-a-pet.s3.amazonaws.com/pet_pictures/assets/000/083/023/home/uploads_2Ff0e51aa6-2e64-4f3a-985f-a0eef0c327e9_2FIMG-20220612-WA0132.jpg"],
+    "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-07-10",
-    "description": "Kano esta esperando que lo vengas a buscar!",
+    "description": "Panchito crece saludable, tiene 3 meses, super cariñoso, solo ronronea y pide brazos",
     "foundation": 3
 }
 
@@ -168,13 +168,13 @@ POST http://localhost:4000/pets
 Content-Type: application/json
 
 {
-    "name": "Lazaro",
+    "name": "Balthazar",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/lazaro_1-169x300.webp"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/980140.jpg"],
     "age": "7 años",
     "gender": "Macho",
     "post_date": "2021-11-20",
-    "description": "A finales de junio te contamos la historia de “Lázaro” en Ayudacan, en ese momento aún no tenía nombre y su pronóstico no era favorable. El perro había sido abandonado fuera del terreno de Marcelo, un vecino de Los Bretes, que lo rescató y lo llevó al veterinario.Lázaro no podía movilizarse por sus propios medios, fue llevado a la veterinaria y comenzó un tratamiento. Todavía debe pasar otra semana allí.El perro tendría posibilidades de volver a caminar, pero se sabrá con seguridad al finalizar con los tratamientos. “Lázaro” necesita tránsito o adopción responsable urgente ya que al salir de la veterinaria debe estar en un lugar adecuado para finalizar su recuperación.",
+    "description": "Balthazar, es un perro tranquilo. Es super educado y le gusta mucho dormir siesta.",
     "foundation": 1
 }
 
@@ -215,7 +215,7 @@ Content-Type: application/json
 {
     "name": "Ahri",
     "type": "Gato",
-    "images": ["https://http2.mlstatic.com/D_NQ_NP_649924-MLA49748480547_042022-V.jpg"],
+    "images": ["https://arcadenoe.org/imas/animales/_442/thumbnail_square.jpg?id=1389"],
     "age": "5 meses",
     "gender": "Hembra",
     "post_date": "2022-07-21",
@@ -230,10 +230,25 @@ Content-Type: application/json
 {
     "name": "Yummi",
     "type": "Gato",
-    "images": ["https://cf.ltkcdn.net/gatos/images/orig/253707-1600x1030-loables-asociaciones-rescate-gatos-ragdoll.jpg"],
+    "images": ["https://pbs.twimg.com/media/FOaQVs2XMAgWNBP?format=jpg&name=large"],
     "age": "8 meses",
     "gender": "Hembra",
     "post_date": "2022-02-13",
     "description": "Yummi, una gatita muy cariñosa de apenas 8 meses a quien le encanta jugar con su bolita de lana, necesita un hogar de tránsito para poder recibir todo el amor que se merece.",
     "foundation": 6
+}
+
+### Pet 17
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Paper",
+    "type": "Perro",
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/622486.jpg"],
+    "age": "2 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Este lindo perrito que está en el parque Sarmiento. Se encuentra muy flaquito, pero es super amistoso. Necesitamos un tránsito para poder sacarlo de ahi y poder conseguirle un hogar",
+    "foundation": 5
 }
