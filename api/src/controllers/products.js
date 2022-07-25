@@ -2,10 +2,10 @@ const {Product} = require("../db");
 
 // ---------------------RUTA POST PRODUCTOS--------------------------
 const postProduct = async (req, res) => {
-    const { name, price_points, type, category } = req.body;
+    const { name, points, type, category } = req.body;
     
     try {
-        if (!name || !price_points || !type || !category) {
+        if (!name || !points || !type || !category) {
         return res.status(400).json({ message: "Missing data" });
         }
     

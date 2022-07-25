@@ -4,19 +4,19 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('product', {
-    id:{
-     type: DataTypes.INTEGER,
-     primaryKey: true,
-     autoIncrement: true
-      },
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true
+    },
 
     name: {
-    type: DataTypes.STRING,
-     allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
 
     images: {
-    type: DataTypes.ARRAY(DataTypes.STRING(8000))
+      type: DataTypes.STRING(1234),
     },
 
     points: {
@@ -30,17 +30,17 @@ module.exports = (sequelize) => {
     },
 
     description: {
-      type: DataTypes.STRING(8000),
+      type: DataTypes.STRING(1234),
     },
     // Indumentaria, Accesorios, juguetes, Snacks, Alimento, Otros...
     type: {
-        type: DataTypes.STRING,
-        allowNull: false
+      type: DataTypes.STRING,
+      allowNull: false
     },
-    category: { 
-        type: DataTypes.ENUM("Perro", "Gato","Unisex"),
-        allowNull: false
+    category: {
+      type: DataTypes.ENUM("Perro", "Gato", "All"),
+      allowNull: false
     },
-     
-  }, {timestamps: false});
+
+  }, { timestamps: false });
 };
