@@ -19,7 +19,7 @@ module.exports = (sequelize) => {
     type: DataTypes.ARRAY(DataTypes.STRING(8000))
     },
 
-    price_points: {
+    points: {
       type: DataTypes.INTEGER,
       allowNull: false
     },
