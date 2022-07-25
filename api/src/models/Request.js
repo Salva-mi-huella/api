@@ -8,7 +8,7 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
     },
-    surname: {
+    lastname: {
         type: DataTypes.STRING,
         allowNull: false
     },
@@ -16,7 +16,7 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false
     },
-    telephone_number: {
+    phone: {
         type: DataTypes.STRING,
         allowNull: false,
     },
@@ -32,7 +32,7 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false
     },
-    description: {
+    textarea: {
         type: DataTypes.STRING,
         allowNull: false
     }
