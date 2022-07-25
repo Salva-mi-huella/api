@@ -69,8 +69,29 @@ const getFoundationByID = async (req, res) => {
 	}
 }
 
+const putFoundation = async(req, res) =>{
+	let { id } = req.params;
+	let { name, location, telephone_number, email, instagram, website, images } = req.body;
+    try {
+		let response = await Foundation.update(
+			{name: name,
+			location: location,
+		    telephone_number: telephone_number,
+		    email: email,
+	        instagram: instagram,
+	        website: website,
+	        images: images,},{where: {id: id}}
+		)
+		res.status(200).json({message: "Data updated successfully"})
+	} catch (error) {
+		res.status(404).json("The data has not been updated")
+	}
+}
+
+
 module.exports = {
 	postFoundation,
   	getFoundations,
-	getFoundationByID
+	getFoundationByID,
+	putFoundation
 }

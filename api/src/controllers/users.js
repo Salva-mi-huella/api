@@ -1,4 +1,4 @@
-// const { User } = require("../db");
+const { User } = require("../db");
 
 // const postUser = async (req, res) => {
 // 	const { name, nickname, picture, email } = req.oidc.user;
@@ -26,6 +26,29 @@
 //     // console.log({nickname, name});
 // });
 
-// module.exports = {
-//   postUser
-// }
+const putUser = async(req, res) =>{
+    let { id } = req.params;
+        let { nickname, name, email, picture, city, dni, telephone_number, address } = req.body;
+    try {
+        let response = User.update(
+            {
+                nickname: nickname,
+                name: name,
+                email: email,
+                picture: picture,
+                city: city,
+                dni: dni,
+                telephone_number: telephone_number,
+                address: address
+            },{where: {id: id}}
+        )
+        res.status(200).json({message: "Data updated successfully"})
+    } catch (error) {
+        res.status(404).json("The data has not been updated")
+    }
+}
+
+module.exports = {
+  //postUser,
+  putUser
+}
