@@ -5,7 +5,7 @@ Content-Type: application/json
 {
     "name": "Agustin",
     "type": "Perro",
-    "images":["https://www.elcampitorefugio.org/imgs/uploaded/780878.jpg"],
+    "images":["https://www.elcampitorefugio.org/imgs/uploaded/780878.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/120237.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/8125.jpg"],
     "age": "4 años",
     "gender":"Macho",
     "post_date":"2022-07-18",
@@ -80,7 +80,7 @@ Content-Type: application/json
 {
     "name": "Layza",
     "type": "Perro",
-    "images": ["https://http2.mlstatic.com/D_NQ_NP_877565-MLA49738888691_042022-V.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/470757.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/95189.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/847636.jpg"],
     "age": "6 años",
     "gender": "Hembra",
     "post_date": "2022-06-03",
@@ -95,7 +95,7 @@ Content-Type: application/json
 {
     "name": "Oro",
     "type": "Perro",
-    "images": ["https://www.opencity.tv/wp-content/uploads/2020/11/perro.jpg"],
+    "images": ["https://cdn.pixabay.com/photo/2021/05/04/12/55/border-collie-6228622_960_720.jpg", "https://upload.wikimedia.org/wikipedia/commons/6/65/Borderkolie.jpg", "https://cdn.pixabay.com/photo/2021/05/04/12/56/border-collie-6228625_960_720.jpg"],
     "age": "8 meses",
     "gender": "Macho",
     "post_date": "2022-01-12",
@@ -110,7 +110,7 @@ Content-Type: application/json
 {
     "name": "Bella",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/101103.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/748051.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/409848.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/532869.jpg"],
     "age": "7 años",
     "gender": "Hembra",
     "post_date": "2022-02-07",
@@ -140,7 +140,7 @@ Content-Type: application/json
 {
     "name":"Saint",
     "type":"Perro",
-    "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/American_Bulldog_Tank.jpg/2048px-American_Bulldog_Tank.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/986902.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/921051.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/216749.jpg"],
     "age": "4 años",
     "gender": "Macho",
     "post_date": "2022-04-12",
@@ -170,7 +170,7 @@ Content-Type: application/json
 {
     "name": "Balthazar",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/980140.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/980140.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/273729.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/62304.jpg"],
     "age": "7 años",
     "gender": "Macho",
     "post_date": "2021-11-20",
@@ -185,7 +185,7 @@ Content-Type: application/json
 {
     "name": "Kronos",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/kronos_portada-300x300.webp"],
+    "images": ["https://www.refugiodontorcuato.com/images/animales/RECORTAR-81.jpg","https://www.refugiodontorcuato.com/images/animales/RECORTAR-79.jpg", "https://www.refugiodontorcuato.com/images/animales/RECORTAR-82.jpg"],
     "age": "3 años",
     "gender": "Macho",
     "post_date": "2022-04-09",
@@ -245,7 +245,7 @@ Content-Type: application/json
 {
     "name": "Paper",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/622486.jpg"],
+    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/622486.jpg","https://www.elcampitorefugio.org/imgs/uploaded/188339.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/663546.jpg"],
     "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
