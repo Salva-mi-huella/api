@@ -66,7 +66,7 @@ const getFoundationByID = async (req, res) => {
 	}
 }
 
-const putFoundation = async(req, res) =>{
+const putFoundation = async (req, res) =>{
 	let { id } = req.params;
 	let { name, location, telephone_number, email, instagram, website, images } = req.body;
     try {
@@ -79,9 +79,9 @@ const putFoundation = async(req, res) =>{
 	        website: website,
 	        images: images,},{where: {id: id}}
 		)
-		res.status(200).json({message: "Data updated successfully"})
+		res.json({message: "Data updated successfully"});
 	} catch (error) {
-		res.status(404).json("The data has not been updated")
+		res.status(404).json({ message: "The data has not been updated" });
 	}
 }
 
