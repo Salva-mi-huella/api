@@ -26,11 +26,11 @@ const { User } = require("../db");
 //     // console.log({nickname, name});
 // });
 
-const putUser = async(req, res) =>{
+const putUser = async (req, res) =>{
     let { id } = req.params;
         let { nickname, name, email, picture, city, dni, telephone_number, address } = req.body;
     try {
-        let response = User.update(
+        let response = await User.update(
             {
                 nickname: nickname,
                 name: name,
@@ -42,9 +42,9 @@ const putUser = async(req, res) =>{
                 address: address
             },{where: {id: id}}
         )
-        res.status(200).json({message: "Data updated successfully"})
+        res.json({message: "Data updated successfully"});
     } catch (error) {
-        res.status(404).json("The data has not been updated")
+        res.status(404).json({ message: "The data has not been updated" });
     }
 }
 
