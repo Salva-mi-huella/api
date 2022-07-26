@@ -14,9 +14,17 @@ module.exports = (sequelize) => {
       allowNull: false,
       unique: true,
     },
-    location:{
+    state:{
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    city:{
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    address:{
+      type: DataTypes.STRING,
+      allowNull: false
     },
     telephone_number:{
       type: DataTypes.STRING,

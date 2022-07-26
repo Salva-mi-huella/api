@@ -4,7 +4,9 @@ Content-Type: application/json
 
 {
     "name": "Refugio el Campito",
-    "location": "Esteban Echeverría, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Monte Grande",
+    "address": "ruta 16 Parc 501",
     "telephone_number": "(450) 247-5896",
     "email": "adoptantesdelcampito@gmail.com",
     "images": [
@@ -21,7 +23,9 @@ Content-Type: application/json
 
 {
     "name": "Gatitos de Palermo",
-    "location": "Esteban Echeverría, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Palermo",
+    "address": "Godoy Cruz 2851",
     "telephone_number": "(240) 824-8794",
     "email": "wotagoy136@falsy.com",
     "images": [
@@ -37,8 +41,10 @@ POST http://localhost:4000/foundations
 Content-Type: application/json
 
 {
-    "name": "El Campito Felino de Belgrano",
-    "location": "El Campito Felino de Belgrano",
+    "name": "El Campito Felino",
+    "state": "Buenos Aires",
+    "city": "Belgrano",
+    "address": "Aristóbulo del Valle 1365",
     "telephone_number": "11-6014-1347",
     "email": "elcampitofelino@yahoo.com",
     "images": [
@@ -54,8 +60,10 @@ POST http://localhost:4000/foundations
 Content-Type: application/json
 
 {
-    "name": "Narices Frias",
-    "location": "Temperley, Buenos Aires",
+    "name": "Naricitas Frias",
+    "state": "Buenos Aires",
+    "city": "Temperley",
+    "address": "Rivadavia 277",
     "telephone_number": "+54 9 11 5761-0101",
     "email": "info@naricitasfrias.com.ar",
     "images": [
@@ -72,7 +80,9 @@ Content-Type: application/json
 
 {
     "name": "Refugio Feliz",
-    "location": "Moreno, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Moreno",
+    "address": "Av. Victorica 4888",
     "telephone_number": "1161812944",
     "email": "refugiofelizadopciones@gmail.com",
     "images": [
@@ -90,7 +100,9 @@ Content-Type: application/json
 
 {
     "name": "Proyecto 4 patas",
-    "location": "CABA, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Caballito",
+    "address": "Felipe Vallese 908",
     "telephone_number": "(992) 883-3934",
     "email": "info@proyecto4patas.org",
     "images": [
@@ -107,7 +119,9 @@ Content-Type: application/json
 
 {
     "name": "Ayudacan",
-    "location": "Almagro, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Almagro",
+    "address": "Jerónimo Salguero 151",
     "telephone_number": "011 15-5617-9472",
     "email": "mascotasenadopcionargentina@gmail.com",
     "images": [
@@ -125,13 +139,15 @@ Content-Type: application/json
 
 {
     "name": "Patias Glew",
-    "location": "Argentina, Buenos Aires",
+    "state": "Buenos Aires",
+    "city": "Glew",
+    "address": "Piedad 124",
     "telephone_number": "011 15-3613-2282",
     "email": "patitasglew@hotmail.com",
     "images": [
         "https://scontent.fmdz5-1.fna.fbcdn.net/v/t1.6435-9/135285580_1147794825654429_2369208977162709237_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PFHbvPJvt4sAX_CnqWT&_nc_ht=scontent.fmdz5-1.fna&oh=00_AT9AdUPxqa6OkDExM_3GhsTycVDrMgcWOxOrBFJz3c9o_g&oe=62FEEFDC"
     ],
-    "website": "https://patitasglew.org/",
+    "website": null,
     "instagram": "https://www.instagram.com/patitasglew/?hl=es",
     "password": "12345"
 }
