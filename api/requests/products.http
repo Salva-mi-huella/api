@@ -1,0 +1,285 @@
+### Product 1
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Comederos de Plástico",
+    "images": "https://d3ugyf2ht6aenh.cloudfront.net/stores/979/500/products/1_1_comedero_chico_21-9b23d5949e29dc957815647592304035-640-0.png",
+    "points": 535,
+    "description": "Plato plástico mediano para perros. Colores varios. Excelente calidad",
+    "type": "Todos",
+    "category": "Accesorios"
+}
+
+### Product 2
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Collar elástico",
+    "images": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/145/238/products/wouapy-collar-gatos-elastico-colores1-57ef6c6a1ca1aac40516057143873053-640-0.jpg",
+    "points": 4320,
+    "description": "Collar elástico para gatos con cascabel",
+    "type": "Gato",
+    "category": "Accesorios"
+}
+
+### Product 3
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Tirador con asas y nudos",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/934-juguetes-perro-soga-cuerda-nudo-asa1-2997ac1c217906ffe915963249511434-1024-1024.jpg",
+    "points": 1780,
+    "description": "Colorido juguete tirador de soga con 2 asas y en el centro tiene un nudo de 7 vueltas de cuerda de algodón. Permite juegos de búsqueda, tire y afloja o simplemente para masticar. Ideal para perros pequeños y medianos.",
+    "type": "Perro",
+    "category": "Juguetes" 
+}
+
+### Product 4
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Conjunto jardinero y buzo con capucha",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/550-abrigo-buzo-corderito1-f0b46cd03fb74fa30715288225695502-640-0.jpg",
+    "points": 12420,    
+    "description": "Abrigada ropa para perros con capucha y jardinero. Sobre la espalda tiene un peluche de un oso que simula una mochila infantil.",
+    "type": "Perro",
+    "category": "Indumentaria" 
+}
+
+### Product 5
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Cepillo cardina",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/115-cardina-mango-de-madera-3bc079cc6201d66df115122104094780-640-0.jpg",
+    "points": 1455,
+    "description": "Cardina con superficie plana, la cual ayuda a sacar los pelos sueltos y a emparejar el pelaje. Si bien sus dientes son metálicos, son muy suaves y sus puntas no lastiman la piel de su perro. Pásela a contrapelo para desenredar, quitar la suciedad y soltar los pelos viejos. Y en sentido del pelo para retirar los pelos sueltos, emprolijar y dar brillo.",
+    "type": "Perro",
+    "category": "Accesorios" 
+}
+
+### Product 6
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Ratones de felpa",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/199-raton-con-chifle1-4a5112277ee92d1e1515760903731009-640-0.jpg",
+    "points": 2235,
+    "description": "Pack de 4 lauchitas de goma recubiertos de felpa de colores vibrantes con chifle que emite sonido al presionarlo.",
+    "type": "Gato",
+    "category": "Juguetes" 
+}
+
+### Product 7
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Rascador piramide grande",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/777-rascador-bowling-640x480-9cf68f7392020ac0d715122100644499-480-0.jpg",
+    "points": 5400,
+    "description": "Exclusivo rascador para gatos. Recubierto de soga sisal, ofrece a su gato una superficie ideal donde afilarse las uñas y jugar. De forma conica y con una base plana, puede ubicarse con facilidad en cualquier sector de la casa. Los gatos necesitan arañar por instinto. esto les ayuda a afilar sus uñas, eliminar las capas muertas de sus garras, estirar y flexionar sus cuerpos. Ademas ayuda a proteger los muebles de los arañazos",
+    "type": "Gato",
+    "category": "Accesorios" 
+}
+
+### Product 8
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Polar fantasia",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1015-al-1024-polar-fantasia-640x480-ee1ba03bbd4786bac915122093980037-640-0.jpg",
+    "points": 2215,
+    "description": "Ropa polar fantasia para perros. Varios colores y modelos",
+    "type": "Perro",
+    "category": "Indumentaria" 
+}
+
+### Product 9
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Bandejas sanitarias",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/019/016/products/bandeja-sanitaria-mediana_web-7499239cbbc4f81e4415121895212576-1024-1024.jpg",
+    "points": 1960,
+    "description": "Bandeja plástica contenedora de piedras sanitarias.",
+    "type": "Todos",
+    "category": "Accesorios" 
+}
+
+### Product 10
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Bozal canasta",
+    "images": "http://d3ugyf2ht6aenh.cloudfront.net/stores/068/331/products/bozal-canasta-plastico-cerrado-perros-dd110691fc691087f234323fa47ce5c1-640-0.jpg",
+    "points": 1550,
+    "description": "Bozal para perro cerrado tipo canasta realizado en plástico de alta calidad. Se ajusta con correas de cuero.",
+    "type": "Perro",
+    "category": "Accesorios" 
+}
+
+### Product 11
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Raza alimento para perros 15kg",
+    "images": "https://cf.shopee.com.ar/file/15a34b55a7e0ff936fd33435850fbf72",
+    "points": 17000,
+    "description": "El alimento balanceado para perros RAZA sabor carne es el preferido por el paladar canino y una de nuestras variedades que tu mascota va a disfrutar en cada comida. Gracias a su complejo vitamínico mineral con Omega 3 y 6, ayudará a que tenga huesos sanos y fuertes, excelente visión, pelaje brillante y mayor vitalidad.",
+    "type": "Perro",
+    "category": "Alimento" 
+}
+
+### Product 12
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Whiskas alimento para gatos 500g",
+    "images": "https://www.lacoopeencasa.coop/media/lcec/publico/articulos/9/f/3/9f3e3bc75076da1b8988b648d9877d00",
+    "points": 1950,
+    "description": "La nueva receta de whiskas® adulto 1+ sabor pescado le aportará a tu gato una nutrición 100% completa, balanceada y sabrosa. Es ideal para satisfacer las diferentes necesidades nutricionales a lo largo de toda su vida adulta: con vitamina a para una visión saludable con omega 6 y zinc, ácidos grasos que ayudan a mantener su piel y pelo sanos con minerales controlados que ayudan a mantener la salud de su tracto urinario nuevas croquetas con relleno húmedo y cremoso para satisfacer a su exigente paladar con antioxidantes, vitamina e y taurina que ayudan a proteger sus células contra la oxidación óptima nutrición proporcionándole todos los nutrientes y energía necesarios para explorar el mundo.",
+    "type": "Gato",
+    "category": "Alimento" 
+}
+
+### Product 13
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Pelotas de rehabilitación soft",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/9713-b17ae2230550599c5e15122102729604-640-0.jpg",
+    "points": 3240,
+    "description": "Pelotas de rehabilitación, tambi én conocidas como soft o foam, con motivos deportivos (fútbol, basketbTodos, beisbol y tenis). Pack por 4 unidades.",
+    "type": "Todos",
+    "category": "Juguetes" 
+}
+
+### Product 14
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Colchón liso",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/colchon-liso21-3018197b3f1c52563d15890266038627-640-0.jpg",
+    "points": 10775,
+    "description": "Colchón liso forrado en tela de avión, rellenos con guata y copo.",
+    "type": "Todos",
+    "category": "Accesorios" 
+}
+
+### Product 15
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Varita con ratón de piel colgante y cascabel",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/varita-con-raton-y-cascabel1-2512ebb5fedddb6b7215122105582607-480-0.jpg",
+    "points": 1590,
+    "description": "Divertido juguete para gatos que permite la interacción con su dueño. Varilla plástica de la que cuelga ratón de piel y un cascabel. El movimiento del ratón y el sonido del cascabel invitan al gato a jugar durante mucho tiempo, lo mantiene atento, activo y despierta todos sus instintos.",
+    "type": "Gato",
+    "category": "Juguetes" 
+}
+
+### Product 16
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Correa y pretal",
+    "images": "https://http2.mlstatic.com/D_NQ_NP_856343-MLA44867125211_022021-O.webp",
+    "points": 3935,
+    "description": "Conjunto de pretal regulable y correa para perros. Hechos de cinta de nylon liso",
+    "type": "Perro",
+    "category": "Accesorios" 
+}
+
+### Product 17
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Bolso transportador de mascotas desarmable",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1430-bolso-transportadora-para-gatos1-ee0b69f6d95ec789bc16036522625470-640-0.jpg",
+    "points": 18900,
+    "description": "El bolso de transporte para perros y gatos es el accesorio perfecto para desplazarte con tu mascota a cualquier lugar que elijas. Si tu perro o gato son pequeños o tienen poca edad podrás utilizar este bolso para dar paseos, que te acompañen en transporte público o privado e incluso para largos viajes.",
+    "type": "Todos",
+    "category": "Accesorios" 
+}
+
+### Product 18
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Correa de cadena metálica con manopla acolchada",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/ea263-correa-cadena-para-perro-metalica-mascotas1-f756dfaf50332d8b6c15122106860005-640-0.jpg",
+    "points": 3300,
+    "description": "Correa realizada con cadena y mosquetón metálicos. Los eslabones chicos hace que la cadena sea liviana pero resistente. Posee una manopla acolchada que proporciona comodidad a la persona que pasea al perro.",
+    "type": "Perro",
+    "category": "Accesorios" 
+}
+
+### Product 19
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Manta polar",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/580-manta-polar_li1-374b976e161f7897d215590487034455-1024-1024.jpg",
+    "points": 4030,
+    "description": "Esta manta realizada en polar mantendrá abrigada a tu mascota mientras duerme.",
+    "type": "Todos",
+    "category": "Indumentaria" 
+}
+
+### Product 20
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Bebedero portátil",
+    "images": "https://veterinariassanbenito.com/web/image/product.product/6171/image",
+    "points": 5250,
+    "description": "Es muy práctico para transportar agua limpia para tu perro durante cualquier actividad (paseo en coche, marcha a pie, camping), incluso para elpaseo diario en el parque en épocas de calor, cuando hay un mayor riesgo de deshidratación. El novedoso diseño botella y taza en uno proporciona un transporte fácil y un consumo de agua segura para el animal. Simplemente aprieta la botella para que el agua se descargue en la taza.",
+    "type": "Perro",
+    "category": "Accesorios" 
+}
+
+### Product 21
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Royal Canin alimento para perros 3kg",
+    "images": "https://puppis.vteximg.com.br/arquivos/ids/172560/156157-1.jpg?v=637350102317070000",
+    "points": 18610,
+    "description": "Royal Canin Medium Adult es un alimento para perros adultos de razas medianas (11 a 25 Kg) desde los 12 meses hasta los 7 años. Con palatabilidad reforzada mediante aromas naturales seleccionados, tamaño, forma y textura de la croqueta adaptados. Asegura una óptima digestibilidad gracias a las proteínas de alta calidad y al aporte equilibrado de fibras alimentarias. Royal Canin es líder en el mercado mundial de alimento balanceado para gatos y perros. Fundada en 1967 en Francia por un médico veterinario, Royal Canin asumió el compromiso de la Nutrición Salud, con el objetivo de aportar las respuestas nutricionales más innovadoras y adaptadas a las necesidades específicas de gatos y perros.",
+    "type": "Perro",
+    "category": "Alimento" 
+}
+
+### Product 22
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "CatPro alimento premium para gatos adultos 1kg",
+    "images": "https://cf.shopee.com.ar/file/2023bbdf2b9fe10ebc9c7fbbbb7e94ab",
+    "points": 4070,
+    "description": "Alimento Premium CatPro especialmente elaborado para gatos adulto.",
+    "type": "Gato",
+    "category": "Alimento" 
+}

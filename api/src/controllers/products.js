@@ -5,10 +5,12 @@ const postProduct = async (req, res) => {
     const { name, points, type, category } = req.body;
     
     try {
+        const productExists = name ? await Product.findOne({ where: { name }}) : null;
         if (!name || !points || !type || !category) {
-        return res.status(400).json({ message: "Missing data" });
+            return res.status(400).json({ message: "Missing data" });
         }
-    
+
+        if (productExists) return res.status(400).json({ message: "Product already exists" });
         const product = await Product.create(req.body);
         return res.json(product);
     } catch (error) {

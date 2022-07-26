@@ -34,11 +34,11 @@ module.exports = (sequelize) => {
     },
     // Indumentaria, Accesorios, juguetes, Snacks, Alimento, Otros...
     type: {
-      type: DataTypes.STRING,
+      type: DataTypes.ENUM("Perro", "Gato", "Todos"),
       allowNull: false
     },
     category: {
-      type: DataTypes.ENUM("Perro", "Gato", "All"),
+      type: DataTypes.STRING,
       allowNull: false
     },
 
