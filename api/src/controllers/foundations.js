@@ -1,22 +1,16 @@
 const { Foundation, Pet, Request, Donations } = require("../db");
-const bcrypt = require('bcrypt');
 
 const postFoundation = async (req, res) => {
-  let { name, state, city, address, lat, lng, telephone_number, password, email, instagram, website, images } = req.body;
 
-	let passwordHash = bcrypt.hashSync(password, 10);
-
-	password = passwordHash;
+  	let { name, state, city, address, telephone_number } = req.body;
 
 	try {
 		const nameExists = name ? await Foundation.findOne({ where: { name }}) : null;
-		if (!name || !state || !city || !address || !telephone_number || !password) {
-			return res.status(400).json({ message: "Missing data"});
-		}
+		if (!name || !state || !city || !address || !telephone_number) return res.status(400).json({ message: "Missing data"});
 		
 		if (nameExists) return res.status(400).json({ message: "Name already exists" });
 			
-		const foundation = await Foundation.create({ name, state, city, address, lat, lng, telephone_number, password, email, instagram, website, images });
+		const foundation = await Foundation.create(req.body);
 		return res.json(foundation);
 	} 
 	catch (error) {
@@ -56,7 +50,7 @@ const getFoundationByID = async (req, res) => {
 
 	try {
 		const foundation = await Foundation.findByPk(id, {
-            include:[Request, Pet, Donations]
+            include: [Request, Pet, Donations]
         });
 		
 		foundation ? res.json(foundation) : res.status(400).json({ message: "Foundation not found" });
@@ -67,21 +61,25 @@ const getFoundationByID = async (req, res) => {
 }
 
 const putFoundation = async (req, res) =>{
-	let { id } = req.params;
-	let { name, location, telephone_number, email, instagram, website, images } = req.body;
+	const { id } = req.params;
+	const { name, state, city, address, lat, lng, telephone_number, email, instagram, website, images } = req.body;
     try {
-		let response = await Foundation.update(
-			{name: name,
-			location: location,
+		const response = await Foundation.update({
+			name: name,
+			state: state,
+			city: city,
+			address: address,
+			lat: lat,
+			lng: lng,
 		    telephone_number: telephone_number,
 		    email: email,
 	        instagram: instagram,
 	        website: website,
 	        images: images,},{where: {id: id}}
 		)
-		res.json({message: "Data updated successfully"});
+		response ? res.json({message: "Data updated successfully"}) : res.status(400).json({ message: "The data has not been updated"});
 	} catch (error) {
-		res.status(404).json({ message: "The data has not been updated" });
+		res.status(404).json({ message: error.message });
 	}
 }
 
