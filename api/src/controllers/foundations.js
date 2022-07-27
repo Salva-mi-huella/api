@@ -2,7 +2,7 @@ const { Foundation, Pet, Request } = require("../db");
 const bcrypt = require('bcrypt');
 
 const postFoundation = async (req, res) => {
-  let { name, state, city, address, telephone_number, password, email, instagram, website, images } = req.body;
+  let { name, state, city, address, lat, lng, telephone_number, password, email, instagram, website, images } = req.body;
 
 	let passwordHash = bcrypt.hashSync(password, 10);
 
@@ -16,7 +16,7 @@ const postFoundation = async (req, res) => {
 		
 		if (nameExists) return res.status(400).json({ message: "Name already exists" });
 			
-		const foundation = await Foundation.create({ name, state, city, address, telephone_number, password, email, instagram, website, images });
+		const foundation = await Foundation.create({ name, state, city, address, lat, lng, telephone_number, password, email, instagram, website, images });
 		return res.json(foundation);
 	} 
 	catch (error) {

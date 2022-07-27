@@ -7,6 +7,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Monte Grande",
     "address": "ruta 16 Parc 501",
+    "lat": "-34.879850",
+    "lng": "-58.417770",
     "telephone_number": "(450) 247-5896",
     "email": "adoptantesdelcampito@gmail.com",
     "images": [
@@ -26,6 +28,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Palermo",
     "address": "Godoy Cruz 2851",
+    "lat": "-34.577180",
+    "lng": "-58.424060",
     "telephone_number": "(240) 824-8794",
     "email": "wotagoy136@falsy.com",
     "images": [
@@ -45,6 +49,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Belgrano",
     "address": "Aristóbulo del Valle 1365",
+    "lat": "-34.535460",
+    "lng": "-58.474820",
     "telephone_number": "11-6014-1347",
     "email": "elcampitofelino@yahoo.com",
     "images": [
@@ -64,6 +70,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Temperley",
     "address": "Rivadavia 277",
+    "lat": "-34.763610",
+    "lng": "-58.368260",
     "telephone_number": "+54 9 11 5761-0101",
     "email": "info@naricitasfrias.com.ar",
     "images": [
@@ -83,6 +91,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Moreno",
     "address": "Av. Victorica 4888",
+    "lat": "-34.632730",
+    "lng": "-58.790210",
     "telephone_number": "1161812944",
     "email": "refugiofelizadopciones@gmail.com",
     "images": [
@@ -103,6 +113,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Caballito",
     "address": "Felipe Vallese 908",
+    "lat": "-34.613430",
+    "lng": "-58.446190",
     "telephone_number": "(992) 883-3934",
     "email": "info@proyecto4patas.org",
     "images": [
@@ -122,6 +134,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Almagro",
     "address": "Jerónimo Salguero 151",
+    "lat": "-34.763520",
+    "lng": "-58.391440",
     "telephone_number": "011 15-5617-9472",
     "email": "mascotasenadopcionargentina@gmail.com",
     "images": [
@@ -142,6 +156,8 @@ Content-Type: application/json
     "state": "Buenos Aires",
     "city": "Glew",
     "address": "Piedad 124",
+    "lat": "-34.887380",
+    "lng": "-58.381110",
     "telephone_number": "011 15-3613-2282",
     "email": "patitasglew@hotmail.com",
     "images": [
