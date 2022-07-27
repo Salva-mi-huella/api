@@ -1,36 +1,60 @@
-const { User } = require("../db");
+const { User, Foundation } = require("../db");
 
-// const postUser = async (req, res) => {
-// 	const { name, nickname, picture, email } = req.oidc.user;
+const checkUser = async (req, res) => {
+    const { nickname, name, email, } = req.body;
 
-// 	try {
-// 		if (!name || !nickname || !picture || !email) return res.status(400).json({ message: "Missing data" });
-		
-// 		const user = await User.create({ name, nickname, picture, email });
+    const userExists = await User.findOne({ where: { email }});
+    const foundationExists = await Foundation.findOne({ where: { email }});
 
-// 		return res.json(user);
-// 	} 
-// 	catch (error) {
-// 		return res.status(404).json({ message: error.message });	
-// 	}
-// }
-
-
-// server.get("/", (req, res) => {
-//     res.send(req.oidc.isAuthenticated() ? "Authenticated" : "Not Authenticated");    
-// })
-
-// server.get('/profile', requiresAuth(), (req, res) => {
-//     res.send(JSON.stringify(req.oidc.user));
-//     // const { nickname, name } = req.oidc.user;
-//     // console.log({nickname, name});
-// });
-
-const putUser = async (req, res) =>{
-    let { id } = req.params;
-        let { nickname, name, email, picture, city, dni, telephone_number, address } = req.body;
     try {
-        let response = await User.update(
+        if (!name || !nickname || !email) return res.status(400).json({ message: "Missing data" });
+
+        if (!userExists && !foundationExists) {
+            const user = await User.create(req.body);
+            return res.json(user);
+        }
+        else if (userExists && !foundationExists) {
+            return res.json({ user: userExists.dataValues });
+        }
+        else {
+            return res.json({ foundation: foundationExists.dataValues });
+        }
+    } 
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
+const getUsers = async (req, res) => {
+    
+    try {
+        const users = await User.findAll();
+        return res.json(users);
+    }
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
+const getUserByEmail = async (req, res) => {
+    const { email } = req.params;
+
+    try {
+        const user = await User.findOne({ where: { email }});
+
+        user ? res.json(user) : res.status(400).json({ message: "User not found " });
+    }
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
+const putUser = async (req, res) => { 
+    const { email: paramEmail } = req.params;
+    const { nickname, name, email, picture, city, dni, telephone_number, address } = req.body;
+    
+    try {
+        const response = await User.update(
             {
                 nickname: nickname,
                 name: name,
@@ -40,15 +64,17 @@ const putUser = async (req, res) =>{
                 dni: dni,
                 telephone_number: telephone_number,
                 address: address
-            },{where: {id: id}}
+            }, {where: { email: paramEmail }}
         )
-        res.json({message: "Data updated successfully"});
+        response ? res.json({message: "Data updated successfully"}) : res.json({ message: "The data has not been updated" });
     } catch (error) {
-        res.status(404).json({ message: "The data has not been updated" });
+        res.status(404).json({ message: error.message });
     }
 }
 
 module.exports = {
-  //postUser,
+  checkUser,
+  getUsers,
+  getUserByEmail,
   putUser
 }

@@ -47,10 +47,6 @@ module.exports = (sequelize) => {
     points: {
       type: DataTypes.INTEGER,
       defaultValue: 0
-    },
-    rol: {
-      type: DataTypes.STRING,
-      defaultValue: "User"
     }
   }, {
     timestamps: false,

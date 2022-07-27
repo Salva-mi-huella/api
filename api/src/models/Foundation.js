@@ -50,14 +50,6 @@ module.exports = (sequelize) => {
     },
     images:{
       type: DataTypes.ARRAY(DataTypes.STRING(1234)),
-    },
-    password:{
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    rol_admin:{
-      type: DataTypes.BOOLEAN,
-      defaultValue: true
     }
   },{
     timestamps: false,
