@@ -1,4 +1,4 @@
-const { Foundation, Pet, Request } = require("../db");
+const { Foundation, Pet, Request, Donations } = require("../db");
 const bcrypt = require('bcrypt');
 
 const postFoundation = async (req, res) => {
@@ -56,7 +56,7 @@ const getFoundationByID = async (req, res) => {
 
 	try {
 		const foundation = await Foundation.findByPk(id, {
-            include:[Request, Pet]
+            include:[Request, Pet, Donations]
         });
 		
 		foundation ? res.json(foundation) : res.status(400).json({ message: "Foundation not found" });

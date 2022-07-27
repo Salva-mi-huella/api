@@ -283,3 +283,303 @@ Content-Type: application/json
     "type": "Gato",
     "category": "Alimento" 
 }
+
+### Product 23
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Collar de ahorque cromado",
+    "images": "https://http2.mlstatic.com/D_NQ_NP_979134-MCO45535366415_042021-O.jpg",
+    "points": 1205,
+    "description": "Cadenas de ahorque para perros de a partir 30 kgs. Eslabones soldados y cromados.",
+    "type": "Perro",
+    "category": "Accesorios"  
+}
+
+### Product 24
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name":"Comedero metalico", 
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/119-comedero-inoxidable-para-perros-21-4e8921374258d7a05715122104378126-640-0.jpg",
+    "points": 3500,
+    "description": "Plato comedero para perros de acero inoxidable y base antideslizante",
+    "type": "Perro",
+    "category": "Accesorios"
+}
+
+### Product 25
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Alimento Vitalcan Balanced Adult Dog",
+    "images": "https://http2.mlstatic.com/D_NQ_NP_881517-MLA32083262307_092019-O.webp",
+    "points": 17175,
+    "description": "Para perro adulto de raza pequeña sabor mix en bolsa de 7.5 kg",
+    "type": "Perro",
+    "category": "Alimento"
+}
+
+### Product 26
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Alimento Pro Plan OptiStart Puppy",
+    "images": "https://http2.mlstatic.com/D_NQ_NP_755352-MLA50247585331_062022-O.webp",
+    "points": 14925,
+    "description": "Para perro cachorro, sabor a pollo en bolsa de 3kg",
+    "type": "Perro",
+    "category": "Alimento"
+}
+
+### Product 27
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Pez de felpa para gatos",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/pez-de-algodon-juguete-para-gato1-3558591af86c447f0a16313749350563-640-0.jpg",
+    "points": 2110,
+    "description": "Este bonito pez con diseño realista está hecho de algodón de alta calidad y felpa suave,  relleno de polialgodón.No tóxico y seguro. Simulan peces como salmones, truchas y carpas de manera realista gracias a su diseño 3D.Es un juguete ideal para su gato.",
+    "type": "Gato",
+    "category": "Juguetes"
+}
+
+### Product 28
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Blister con 4 pelotitas sonajero para gato",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/239-blister-de-cuatro-pelotas-cascabel1-6a1c4db15a27fdcfb415205404607731-640-0.jpg",
+    "points": 1845,
+    "description": "El movimento de la pelotita y el sonido del cascabel es una combinación que llama la atención de los gatos y los invita a jugar.",
+    "type": "Gato",
+    "category": "Juguetes"
+}
+
+### Product 29
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Ratoncitos multicolor por 3 unidades",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/201-ratitas-x-3-2cde91a633d648a50f15122105953142-640-0.jpg",
+    "points": 2415,
+    "description": "Pack de 3 ratoncitos recubiertos de hilo multicolor y que emite sonido cuando se mueve y atrae atención del felino iniciando así un juego de caza.",
+    "type": "Gato",
+    "category": "Juquetes"
+}
+
+### Product 30
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Royal Canin Appetite Control Care Gravy",
+    "images": "https://animalandia.com.ar/productos/obtenerimagen/?id=14292&useDensity=true&width=535&height=300.9375&tipoEscala=contain",
+    "points": 1440,
+    "description": "Alimento para gatos adultos, recomendado para ayudar a controlar el comportamiento de pedir alimento.(Pouch de 85gr. cada uno)",
+    "type": "Gato",
+    "category": "Alimento"
+}
+
+### Product 31
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Hierba para gatos",
+    "images": "https://ss-static-01.esmsv.com/id/15204/productos/obtenerimagen/?id=6379&useDensity=true&width=1366&height=635&tipoEscala=contain",
+    "points": 1495,
+    "description": "Gramínea de crecimiento rápido indispensable para gatos que habitan el interior de la vivienda.",
+    "type": "Gato",
+    "category": "Alimento"
+}
+
+### Product 32
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Old Prince Equilibrium Adults Complete Care",
+    "images": "https://ss-static-01.esmsv.com/id/15204/productos/obtenerimagen/?id=5261&useDensity=true&width=1366&height=635&tipoEscala=contain",
+    "points": 3715,
+    "description": "Ingredientes:Harina de subproductos de pollo, arroz, gluten de maíz, plasma bovino en polvo, huevo en polvo, grasa animal (pollo - cerdo), aceite de pescado (fuente de omega 3) hidrolizado proteico de pollo y cerdo, pulpa de remolacha (fuente de fructo-oligosacáridos - FOS)",
+    "type": "Gato",
+    "category": "Alimento"
+}
+
+### Product 33
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Guante saca pelos",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1455-guante-de-bano-saca-pelos51-d4e6373b23f41444dc15671921799121-640-0.jpg",
+    "points": 3840,
+    "description": "Guante para un peinado suave y eficiente de tu mascota, le encantará que lo acaricies con él.Imita el tacto de la mano para masajes, incluye 180 puntas de silicona para cepillar con facilidad.El pelo se pega en el guante, por lo que es fácil de retirar y tirar después de asear a tu perro o gato.Elimina fácilmente el pelo para mascotas de todos los tamaños y razas.",
+    "type": "Todos",
+    "category": "Accesorios"
+}
+
+### Product 34
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Palita Sanitaria",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/109-palita-sanitaria-640x480-964b036f1bb574d77215122095045175-640-0.jpg",
+    "points": 375,
+    "description": "Palita sanitaria  para desechar las necesidades de su mascota de una manera higi énica.Fabricada en polipropileno.",
+    "type": "Todos",
+    "category": "Accesorios"
+}
+
+### Product 35
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Polar Liso",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/500-al-512-polar-lisos-bf3689e4c898be366315122103901820-640-0.jpg",
+    "points": 1470,
+    "description": "Ropa polar lisa para perros. Varios colores.A continuación detallamos el tamaño de ls talla. Talle 0. Largo 20 cms.",
+    "type": "Perro",
+    "category": "Indumentaria"
+}
+
+### Product 36
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Peine metálico doble paso mango plástico",
+    "images": "http://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/127-peine-paso-doble1-b6f69e798f4075e50415122104938457-640-0.jpg",
+    "points": 2155,
+    "description": "Este peine de doble paso para mascotas permite un correcto peinado y cuidado del pelo de tu mascota gracias a sus cerdas de metal. Es un peine dos en uno, apto para perros y gatos de pelo largo y semi largo.",
+    "type": "Todos",
+    "category": "Accesorios"
+}
+
+### Product 37
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Pelota de tenis con soga de hilo larga",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/317-pelota-de-tenis-con-soga-de-algodon-larga-640x480-ea8dfa207785fbf2fc15122097094884-480-0.jpg",
+    "points": 2080,
+    "description": "Pelota de tenis con soga que permite jugar a tironear con su perro. Venta por unidad.",
+    "type": "Perro",
+    "category": "Juguetes"
+}
+
+### Product 38
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Blister con 4 juguetes para gato",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/2381-52cdcb1ce4aaa508b415180306755516-1024-1024.jpg",
+    "points": 2535,
+    "description": "Blister con 2 pelotitas sonajero y 2 ratoncitos.Las pelotitas tienen un cascabel en su interior que emiten sonido cuando el gato las mueve. Diametro 4 cms.Uno de los ratoncitos esta forrado en soga sisal y otro de piel sintética.",
+    "type": "Gato",
+    "category": "Juguetes"
+}
+
+### Product 39
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Collar con pañuelo",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1463-collar-para-perros-con-panuelo11-29bbaacc7ec5e5c93115969086153348-640-0.jpg",
+    "points": 910,
+    "description": "Collares para perros realizados en ecocuero. Este modelo, en la cara exterior del collar posee un pañuelo que le otorga un toque de distinción y belleza a la mascota.Fácil de limpiarVenta mayorista. Modelos y colores variados. Medidas:1 mm de ancho x 35cms de largo ",
+    "type": "Perros",
+    "category": "Accesorios"
+}
+
+### Product 40
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Collar Gato elastizado 30 cm con Cascabel por 6 unidades",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1399-collar-elastizado2-58daeea2047d2c779915122105094855-1024-1024.jpg",
+    "points": 4590,
+    "description": "ollar de nylon elastizado para gato con cascabel. Este collar prioriza la seguridad de los feninos.Muchos propietarios son reacios a poner collares a sus gatos debido a los informes sobre los terribles accidentes al ser atrapados por sus collares y ser estrangulados.Algunos gatos también pueden tratar de quitarse un collar que sea muy flojo, que también pueden provocar lesiones. Los collares con cascabeles ayudan a proteger a las aves silvestres. Si un gato se acerca demasiado, el movimiento hace que el sonido de la campana advierta al pájaro sobre un peligro inminente.Presentación: 6 unidades.",
+    "type": "Gato",
+    "category": "Accesorios"
+}
+
+### Product 41
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Collar luminoso Led",
+    "images": "https://d2r9epyceweg5n.cloudfront.net/stores/120/791/products/1350-collar-luminoso-led1-067f02f6c6f1dd7b3b15435195054229-640-0.jpg",
+    "points": 2690,
+    "description": "Los collares luminosos con luz LED para perros brindan seguridad a los animales, especialmente de noche o en condiciones de poca luz.Con este collar, tu perro puede ser visto con claridad por personas, autos, corredores y ciclistas.Además te ayuda encontrar fácilmente a tu mascota.También evita muchos accidentes y hace que su mascota esté más segura.",
+    "type": "Perro",
+    "category": "Accesorios"
+}
+
+### Product 42
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Bocaditos Finos de Carne Pollo Chocolate Golocan X 500 GR",
+    "images": "https://www.timberline.com.ar/4430-large_default/bocaditos-finos-carne-pollo-chocolate-golocan-x-500-gr.jpg",
+    "points": 3610,
+    "description": "Bocaditos finos Golocan Es un complemento de dieta de consistencia semi-húmeda, excelente palatabilidad, elaborado con materias primas de óptima calidad.Derivados cárnicos pre digeridos, de origen bovino y de aves, gelatina, harina de trigo pre cocida, huevo en polvo, primer jugo bovino, jarabe de glucosa, ácido cítrico, propilenglicol, sorbato de potasio, BHT, colorantes permitidos, sabor artificial.",
+    "type": "Perro",
+    "category": "Alimento"
+}
+
+### Product 43
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Cholitas Galletitas Caseras x 500 GR",
+    "images": "https://www.timberline.com.ar/954-large_default/cholitas-galletitas-caseras-x-500-gr.jpg",
+    "points": 1710,
+    "description": "Utilizadas como premio o gratificación para las mascotas. Tiene buen aporte de vitaminas y minerales, importante para el desarrollo de los huesos y dientes sanos y fuertes. Además, estas galletitas ayudan a remover las partículas presentes en los dientes del animal que provocan el mal aliento y la formación de sarro. Actúa sobre la placa bacteriana, evitando la acumulación de residuos de alimentos, contribuyendo así a la limpieza e higiene bucal de su perro. Se presenta listo para ser usado, suministrándose directamente del envase.",
+    "type": "Perro",
+    "category": "Alimento"
+}
+
+### Product 44
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Felix de Sardina x 85 GR",
+    "images": "https://www.timberline.com.ar/3900-large_default/felix-de-sardina-x-85-gr.jpg",
+    "points": 725,
+    "description": "Deliciosos trocitos acompañados de una deliciosa salsa, dándole a tu gato sabores, texturas y aromas únicos.rueba cada uno de los diferentes sabores y descubre cual es el que mas le gusta a tu amigo felino.",
+    "type": "Gato",
+    "category": "Alimento"
+}
+
+
+### Product 45
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Fancy Feast Casserole Con Atun y Salmon x 85 GR",
+    "images": "https://www.timberline.com.ar/3946-large_default/fancy-feast-casserole-con-atun-y-salmon-x-85-gr.jpg",
+    "points": 1530,
+    "description": "EL AMOR ESTÁ EN LOS DETALLES: Purina®-fancy-feast-hero-Gato.png Conoce el nuevo Fancy Feast® y descubre una experiencia gastronómica con una gran variedad de preparaciones gourmet hechas tal y como a él le gusta!",
+    "type": "Gato",
+    "category": "Alimento"
+}
