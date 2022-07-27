@@ -31,7 +31,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
 
-const { Foundation, Pet, News, Product, Request, User } = sequelize.models;
+const { Foundation, Pet, News, Product, Request, User, Donations } = sequelize.models;
 
 
 // Aca vendrian las relaciones
@@ -45,6 +45,12 @@ News.belongsTo(Foundation);
 Foundation.hasMany(Request);
 Request.belongsTo(User);
 User.hasMany(Request);
+
+// RELACION 1:N (Foundation - Donation- User)
+Donations.belongsTo(User);
+User.hasMany(Donations);
+Donations.belongsTo(Foundation);
+Foundation.hasMany(Donations);
 
 //RELACION 1:N (Foundation - Pet)
 Pet.belongsTo(Foundation);
