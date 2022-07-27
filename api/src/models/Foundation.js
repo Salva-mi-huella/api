@@ -26,6 +26,12 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false
     },
+    lat:{
+      type: DataTypes.STRING
+    },
+    lng:{
+      type: DataTypes.STRING
+    },
     telephone_number:{
       type: DataTypes.STRING,
       allowNull: false,
