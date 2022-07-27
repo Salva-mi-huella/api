@@ -315,7 +315,7 @@ POST http://localhost:4000/products
 Content-Type: application/json
 
 {
-    "name": "Alimento Vitalcan Balanced Adult Dog",
+    "name": "Alimento Vitalcan balaceado para adultos",
     "images": "https://http2.mlstatic.com/D_NQ_NP_881517-MLA32083262307_092019-O.webp",
     "points": 17175,
     "description": "Para perro adulto de raza pequeña sabor mix en bolsa de 7.5 kg",
@@ -328,7 +328,7 @@ POST http://localhost:4000/products
 Content-Type: application/json
 
 {
-    "name": "Alimento Pro Plan OptiStart Puppy",
+    "name": "Alimento Cachorro ",
     "images": "https://http2.mlstatic.com/D_NQ_NP_755352-MLA50247585331_062022-O.webp",
     "points": 14925,
     "description": "Para perro cachorro, sabor a pollo en bolsa de 3kg",
@@ -380,7 +380,7 @@ POST http://localhost:4000/products
 Content-Type: application/json
 
 {
-    "name": "Royal Canin Appetite Control Care Gravy",
+    "name": "Salsa para el cuidado del control del apetito de Royal Canin",
     "images": "https://animalandia.com.ar/productos/obtenerimagen/?id=14292&useDensity=true&width=535&height=300.9375&tipoEscala=contain",
     "points": 1440,
     "description": "Alimento para gatos adultos, recomendado para ayudar a controlar el comportamiento de pedir alimento.(Pouch de 85gr. cada uno)",
@@ -406,7 +406,7 @@ POST http://localhost:4000/products
 Content-Type: application/json
 
 {
-    "name": "Old Prince Equilibrium Adults Complete Care",
+    "name": "Old Prince Adultos Cuidado Completo",
     "images": "https://ss-static-01.esmsv.com/id/15204/productos/obtenerimagen/?id=5261&useDensity=true&width=1366&height=635&tipoEscala=contain",
     "points": 3715,
     "description": "Ingredientes:Harina de subproductos de pollo, arroz, gluten de maíz, plasma bovino en polvo, huevo en polvo, grasa animal (pollo - cerdo), aceite de pescado (fuente de omega 3) hidrolizado proteico de pollo y cerdo, pulpa de remolacha (fuente de fructo-oligosacáridos - FOS)",
@@ -576,7 +576,7 @@ POST http://localhost:4000/products
 Content-Type: application/json
 
 {
-    "name": "Fancy Feast Casserole Con Atun y Salmon x 85 GR",
+    "name": "Cazuela de fiesta elegante Con Atun y Salmon x 85 GR",
     "images": "https://www.timberline.com.ar/3946-large_default/fancy-feast-casserole-con-atun-y-salmon-x-85-gr.jpg",
     "points": 1530,
     "description": "EL AMOR ESTÁ EN LOS DETALLES: Purina®-fancy-feast-hero-Gato.png Conoce el nuevo Fancy Feast® y descubre una experiencia gastronómica con una gran variedad de preparaciones gourmet hechas tal y como a él le gusta!",
