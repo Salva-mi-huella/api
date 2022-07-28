@@ -3,27 +3,22 @@ const { DataTypes } = require('sequelize');
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define('donations', {
+  sequelize.define('request_foundation', {
     id: {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true
     },
-    amount: {
-        type: DataTypes.INTEGER,
+    name: {
+        type: DataTypes.STRING,
         allowNull: false,
     },
-    points: {
-        type: DataTypes.INTEGER,
+    email: {
+        type: DataTypes.STRING,
         allowNull: false
     },
-    method: {
-        type : DataTypes.STRING,
-        allowNull: false
-    },
-    date : {
-        type: DataTypes.DATEONLY,
-        defaultValue: DataTypes.NOW
+    message: {
+        type: DataTypes.STRING(1234),
     }
-  }, {timestamps: false});
+},{timestamps: false});
 };

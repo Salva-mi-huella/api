@@ -44,8 +44,8 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
     },
     transit: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false
+      type: DataTypes.ENUM("Si", "No"),
+      defaultValue: "No"
     },
     points: {
       type: DataTypes.INTEGER,
