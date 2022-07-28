@@ -34,6 +34,9 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       unique: true
     },
+    birthday: {
+      type: DataTypes.DATEONLY
+    },
     telephone_number: {
       type: DataTypes.STRING,
     },
