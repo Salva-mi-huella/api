@@ -1,4 +1,4 @@
-const { Foundation, Pet, Request, Donations } = require("../db");
+const { Foundation, Pet, Request, Donations, News } = require("../db");
 
 const postFoundation = async (req, res) => {
 
@@ -23,10 +23,7 @@ const getFoundations = async (req, res) => {
 
 	try {
 		let foundations = await Foundation.findAll({
-			include: {
-				model: Pet,
-				attributes: ["id", "name", "images"]
-			},
+			include: [Request, Donations, News, Pet]
 		});
 
 		if (name) {
@@ -50,7 +47,7 @@ const getFoundationByID = async (req, res) => {
 
 	try {
 		const foundation = await Foundation.findByPk(id, {
-            include: [Request, Pet, Donations]
+            include: [Request, Pet, Donations, News]
         });
 		
 		foundation ? res.json(foundation) : res.status(400).json({ message: "Foundation not found" });
