@@ -449,5 +449,272 @@ Content-Type: application/json
     "foundation": 1
 }
 
+### Pet 31
+POST http://localhost:4000/pets
+Content-Type: application/json
 
+{
+    "name": "Garfiel",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659033272/Huellas_folder/Sin_t%C3%ADtuloa_tu96mr.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033272/Huellas_folder/Sin_t%C3%ADtualo_k833yt.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033273/Huellas_folder/Sin_t%C3%ADtdulo_hbvxgn.png"],
+    "age": "1 año y medio",
+    "gender": "Macho",
+    "post_date": "2022-07-13",
+    "description": "Hermoso gato macho de 1 año y medio, esta castrado, con vacunas, es bueno y sociable, esta en tránsito pero muy pronto se acabará, deberá venir al refugio, donde padecerá frío y no es lo ideal luego de estar en un departamento por eso ayudanos ",
+    "foundation": 2
+}
 
+### Pet 32
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Rolo",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659033782/Huellas_folder/Sin_t%C3%ADtulsao_s6ke4d.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033783/Huellas_folder/Sin_tsasas%C3%ADtulo_ot38x5.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033782/Huellas_folder/Sin_t%C3%ADtuloasas_ravawq.png"],
+    "age": "5 años",
+    "gender": "Macho",
+    "post_date": "2022-07-15",
+    "description": "Si existiera el campeonato de sacadas de lengua👅no tenemos duda de que Rolo sería el campeón 🏆ADOPTÁ a Rolito. Kilos de amor y besos asegurados🤗",
+    "foundation": 1
+}
+
+### Pet 33
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Paquito",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659034285/Huellas_folder/Sin_t%C3%ADtulsaas_mrqr5n.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034286/Huellas_folder/Sin_t%C3%ADtasaeulo_cwhxc9.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034286/Huellas_folder/Sin_t%C3%ADtaulo_ywjwtw.png"],
+    "age": "5 meses",
+    "gender": "Perro",
+    "post_date": "2022-07-17",
+    "description": "Mirá la evolución de Paquito y decinos sino está %100 recuperado como para tener un hogar definitivo🏠🐶Dale una oportunidad a un rescatado. ADOPTÁ a Paquito🙌",
+    "foundation": 1
+}
+
+### Pet 34
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Ramoncito",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659034966/Huellas_folder/Sin_t%C3%ADtulasaso_to2kf0.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034965/Huellas_folder/Sin_tewe%C3%ADtulo_uyoczy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034965/Huellas_folder/Sin_t%C3%ADtassasulo_pahyc4.png"],
+    "age": "4 meses",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Gatito de 4 meses divino mimoso con vacunas",
+    "foundation": 2
+}
+
+### Pet 35
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Derek",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659035516/Huellas_folder/Sin_t%C3%ADtualo_gu1zhh.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035517/Huellas_folder/Sin_t%C3%ADtulo_kllqk8.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035517/Huellas_folder/Sin_t%C3%ADtasdulo_m1biwz.png"],
+    "age": "1 año y medio",
+    "gender": "Macho",
+    "post_date": "2022-07-01",
+    "description": "DEREK machito de 1 AÑO Y MEDIO, castrado, con vacunas, se lleva muy bien con perros. Es dócil y muy sociable",
+    "foundation": 3
+}
+
+### Pet 36
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Panchito",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659035793/Huellas_folder/Sin_t%C3%ADtdulo_oh5nkd.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035794/Huellas_folder/Sin_t%C3%ADsatulo_ircrsk.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035795/Huellas_folder/Sin_st%C3%ADtulo_ldc7gp.png"],
+    "age": "3 meses",
+    "gender": "Macho",
+    "post_date": "2022-07-13",
+    "description": "Panchito crece saludable, tiene 3 meses, super cariñoso, solo ronronea y pide brazos!!!",
+    "foundation": 3
+}
+
+### Pet 37
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Zeke",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659036173/Huellas_folder/Sin_t%C3%ADtulo_z5vuek.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036171/Huellas_folder/Sin_t%C3%ADtuslo_yojbyy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036172/Huellas_folder/Sin_t%C3%ADtuslaso_mezpxq.png"],
+    "age": "2 meses",
+    "gender": "Macho",
+    "post_date": "2022-07-15",
+    "description": "Hace exactamente un mes alguien abandonaba a 7 cachorros indefensos, mojados y helados dentro de bolsas colgadas sigilosamente en las rejas de varias casas de un mismo barrio💔Los fuimos recibiendo a medida que nos avisaban y dándole atención. Todos necesitaron internación y tristemente una bebita murió sin que se pudiera hacer nada para evitarlo. Los otros pudieron salir adelante y hoy están todos felizmente adoptados excepto Zeke que aun espera ser elegido.Es un cachorro hermoso y sano con muchísimo amor para dar.Dale una oportunidad a Zeke.",
+    "foundation": 4
+}
+
+### Pet 38
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Jack",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659036791/Huellas_folder/s_s5rqnj.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036791/Huellas_folder/Sin_tsa%C3%ADtulo_zvt89x.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036789/Huellas_folder/Sinas_t%C3%ADtulo_k5bmub.png"],
+    "age": "3 meses",
+    "gender": "Macho",
+    "post_date": "2022-07-11",
+    "description": "Jack y sus 4 hermanitos fueron rescatados de la casa de una acumuladora de gatos.Todos tenían infecciones respiratorias y oculares, pero Jack tenia un ojo ulcerado muy comprometido y no se pudo hacer nada para salvarlo😔Como consecuencia de esto quedó con un ojo atrofiado pero eso no le impide llevar una vida normal y ser un gatito hermoso y activoTodos sus hermanitos consiguieron familia salvo Jack, que aun no encontró a su humano ideal que pueda ver mas allá de las diferencias😻Tiene 3 meses y goza de buena salud.",
+    "foundation": 4
+}
+
+### Pet 39
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Mandy",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659037216/Huellas_folder/Sin_t%C3%ADtaasxulo_ohasdu.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037216/Huellas_folder/asas_lis4cu.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037217/Huellas_folder/Sin_t%C3%ADtusaclo_mbgthl.png"],
+    "age": "1 año y medio",
+    "gender": "Hembra",
+    "post_date": "2022-06-26",
+    "description": "No podíamos elegir solo una foto porque salió hermosa en todas🤩🤔Pero hay algo que no podemos entender,¿Como Mandy sigue sin ser adoptada?👉Si querés sumarla a tu familia mándanos una solicitud ",
+    "foundation": 5
+}
+
+### Pet 40
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Claudia",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659037536/Huellas_folder/Sin_sasasw_t1lpag.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037535/Huellas_folder/Sin_t%C3%ADtqwrulo_e3louy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037537/Huellas_folder/Sin_t%C3%ADtswqulo_c6hs4l.png"],
+    "age": "1 año",
+    "gender": "Hembra",
+    "post_date": "2022-07-11",
+    "description": "Claudia es tan buena y dócil. Esta hace tiempo esperando hogar, esterilizada, tiene 1 año,",
+    "foundation": 5
+}
+
+### Pet 41
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Isaac",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_t%C3%ADtwrgulo_wwqukp.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_t%C3%ADtusawlo_cag9rs.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_tsaw%C3%ADtulo_dj6ysm.png"],
+    "age": "5 meses",
+    "gender": "Macho",
+    "post_date": "2022-07-21",
+    "description": "Imagínate llegar a tu casa y que Isaac te esté esperando así 🤗Este pequeño orejón de 5 meses está en adopción y vos podrías ser su humanx🙋Está desparasitado y con su plan de vacunación completo💉",
+    "foundation": 6
+}
+
+### Pet 42
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Olga",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADswtulo_hhcxv7.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADtrulo_av3jdy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADtuswtlo_ciqlxw.png"],
+    "age": "10 años",
+    "gender": "Hembra",
+    "post_date": "2022-06-13",
+    "description": "Tenemos un sueño, queremos que Olguita tenga un hogar. Es una viejita ciega que rescatamos de la calle😔 Unos vecinos le habían puesto una caja para que no se mueva y corra peligro con los autos, pero la calle no es hogar para nadie y menos para una perrita que no puede ver📦¿Se imaginan la desesperación?🥺",
+    "foundation": 6
+}
+
+### Pet 43
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Lazaro",
+    "type": "Perro",
+    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/lazaro_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/lazaro_9.webp", "https://ayudacan.org/wp-content/uploads/2022/01/lazaro_10.webp"],
+    "age": "5 años",
+    "gender": "Macho",
+    "post_date": "2022-07-25",
+    "description": "Lazaro es el perro mas especial que tenemos ayudacan, esta esperando por ser adoptado, el espera por vos",
+    "foundation": 7
+}
+
+### Pet 44
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Pamba",
+    "type": "Perro",
+    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/pampa_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/pampa_15.webp", "https://ayudacan.org/wp-content/uploads/2022/01/pampa_14.webp"],
+    "age": "5 años",
+    "gender": "Macho",
+    "post_date": "2022-06-13",
+    "description": "Llego muy flaquito pero aca se esta recuperando y dejando atras el pasado. Pamba quiere ser adoptado esta esperando por ti",
+    "foundation": 7
+}
+
+### Pet 45
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Miel",
+    "type": "Perro",
+    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659039417/Huellas_folder/Sin_tsawwq%C3%ADtulo_mco6ku.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659039418/Huellas_folder/Sin_t%C3%ADswtulo_rhf0bk.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659039419/Huellas_folder/Sin_t%C3%ADtusawwlo_xdz7tq.png"],
+    "age": "3 meses",
+    "gender": "Hembra",
+    "post_date": "2022-06-29",
+    "description": "Miel fue brutalmente atacada por otro perro que le ocasionó una fractura de craneo a sus 2 meses de vida. Sus chances de sobrevivir no eran muchas, pero había que intentarlo..Con el tratamiento indicado y los cuidados de su tránsito ella logró salir adelante y hoy después de una larga lucha ya se encuentra totalmente recuperada y lista para encontrar su familia definitiva.Vos qué esperas para sumarla a tu manada?",
+    "foundation": 8
+}
+
+### Pet 46
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Mora",
+    "type": "Perro",
+    "images": ["", "", ""],
+    "age": "5 meses",
+    "gender": "Hembra",
+    "post_date": "2022-06-30",
+    "description": "Primero mírate todas las fotos 📷 y después decinos si Mora no es la cachorrona más hermosa de Instagram🤩Sus hermanos fueron adoptados pero ella sigue esperando una familia con quien jugar😀Tiene 5 meses y está vacunada. Lista para irse a su nuevo hogar🏠",
+    "foundation": 8
+}
+
+### Pet 47
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Kronos",
+    "type": "Perro",
+    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/kronos_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/kronos_13.webp", "https://ayudacan.org/wp-content/uploads/2022/01/kronos_12.webp"],
+    "age": "3 años",
+    "gender": "Macho",
+    "post_date": "2022-07-01",
+    "description": "Lo que mas le gusta es salir a pasear, le cuetas hacerse amigo de otros perros. Espera por ti",
+    "foundation": 7
+}
+
+### Pet 48
+POST http://localhost:4000/pets
+Content-Type: application/json
+
+{
+    "name": "Dj",
+    "type": "Perro",
+    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/dj_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/dj_16.webp", "https://ayudacan.org/wp-content/uploads/2022/01/dj_7.webp"],
+    "age": "2 años",
+    "gender": "Macho",
+    "post_date": "2022-07-25",
+    "description": "Necesita un hogar sin niños ni gatos, es muy energico y mimoso aunque un poco torpe demostrando su cariño",
+    "foundation": 7
+}
