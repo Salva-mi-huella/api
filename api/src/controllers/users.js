@@ -1,4 +1,4 @@
-const { User, Foundation } = require("../db");
+const { User, Foundation, Request, Donations } = require("../db");
 
 const checkUser = async (req, res) => {
     const { nickname, name, email, } = req.body;
@@ -28,7 +28,7 @@ const checkUser = async (req, res) => {
 const getUsers = async (req, res) => {
     
     try {
-        const users = await User.findAll();
+        const users = await User.findAll({include: [Request, Donations]});
         return res.json(users);
     }
     catch (error) {
@@ -40,7 +40,7 @@ const getUserByEmail = async (req, res) => {
     const { email } = req.params;
 
     try {
-        const user = await User.findOne({ where: { email }});
+        const user = await User.findOne({include: [Request, Donations] },{ where: { email:email }} );
 
         user ? res.json(user) : res.status(400).json({ message: "User not found " });
     }
