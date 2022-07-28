@@ -51,7 +51,7 @@ const getUserByEmail = async (req, res) => {
 
 const putUser = async (req, res) => { 
     const { email: paramEmail } = req.params;
-    const { nickname, name, email, picture, city, dni, telephone_number, address } = req.body;
+    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address } = req.body;
     
     try {
         const response = await User.update(
@@ -62,6 +62,7 @@ const putUser = async (req, res) => {
                 picture: picture,
                 city: city,
                 dni: dni,
+                birthday: birthday,
                 telephone_number: telephone_number,
                 address: address
             }, {where: { email: paramEmail }}
