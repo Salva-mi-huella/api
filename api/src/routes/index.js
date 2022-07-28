@@ -6,6 +6,7 @@ const news = require("./news");
 const pets = require("./pets");
 const users = require("./users");
 const products = require("./products");
+const donations = require("./donations");
 
 module.exports = router;
 
@@ -16,4 +17,5 @@ router.use('/news', news);
 router.use('/pets', pets);
 router.use('/users', users);
 router.use('/products', products);
+router.use('/donations', donations);
 
