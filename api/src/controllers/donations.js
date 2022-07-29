@@ -17,7 +17,12 @@ const postDonation = async (req, res) => {
 
 const getDonations = async (req, res) => {
     try {
-        const donations = await Donation.findAll();
+        const donations = await Donation.findAll({
+            include: {
+                model: Foundation,
+                attributes: ["name"]
+            }
+        });
 
         return res.json(donations); 
     }
