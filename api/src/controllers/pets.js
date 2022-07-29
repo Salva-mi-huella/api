@@ -6,10 +6,16 @@ const postPet = async (req, res) => {
 	try {
 		if (!name || !age || !gender || !description) {
 			return res.status(400).json({ message: "Missing data" });
-		}				
-		const pet = await Pet.create(req.body);
-		pet.setFoundation(foundation);
-		return res.json(pet);
+		}
+
+		const petExists = await Pet.findOne({ where: { description }});
+		
+		if (!petExists) {
+			const pet = await Pet.create(req.body);
+			pet.setFoundation(foundation);
+			return res.json(pet);
+		}
+		return res.status(400).json({ message: "Pet already exists" });
 	} 
 	catch (error) {
 		return res.status(404).json({ message: error.message });
