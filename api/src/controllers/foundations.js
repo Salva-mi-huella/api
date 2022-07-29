@@ -42,13 +42,22 @@ const getFoundations = async (req, res) => {
 	}
 }
 
-const getFoundationByID = async (req, res) => {
-	const { id } = req.params;
+const getFoundationByEmailOrID = async (req, res) => {
+	const { param } = req.params;
+		
+	let foundation;
 
 	try {
-		const foundation = await Foundation.findByPk(id, {
-            include: [Request_adopt, Pet, Donation, News]
-        });
+		if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(param)) {
+			foundation = await Foundation.findOne({ where: { email: param }}, {
+				include: [Request_adopt, Pet, Donation, News]
+			});
+		}
+		else {
+			foundation = await Foundation.findByPk(param, {
+				include: [Request_adopt, Pet, Donation, News]
+			});
+		}
 		
 		foundation ? res.json(foundation) : res.status(400).json({ message: "Foundation not found" });
 	}
@@ -72,7 +81,7 @@ const putFoundation = async (req, res) =>{
 		    email: email,
 	        instagram: instagram,
 	        website: website,
-	        images: images,},{where: {id: id}}
+	        images: images,}, {where: { id }}
 		)
 		response ? res.json({message: "Data updated successfully"}) : res.status(400).json({ message: "The data has not been updated"});
 	} catch (error) {
@@ -84,6 +93,6 @@ const putFoundation = async (req, res) =>{
 module.exports = {
 	postFoundation,
   	getFoundations,
-	getFoundationByID,
+	getFoundationByEmailOrID,
 	putFoundation
 }
