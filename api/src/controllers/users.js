@@ -51,7 +51,7 @@ const getUserByEmail = async (req, res) => {
 
 const putUser = async (req, res) => { 
     const { email: paramEmail } = req.params;
-    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address } = req.body;
+    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points } = req.body;
     
     try {
         const response = await User.update(
@@ -64,7 +64,8 @@ const putUser = async (req, res) => {
                 dni: dni,
                 birthday: birthday,
                 telephone_number: telephone_number,
-                address: address
+                address: address,
+                points: points
             }, {where: { email: paramEmail }}
         )
         response ? res.json({message: "Data updated successfully"}) : res.json({ message: "The data has not been updated" });

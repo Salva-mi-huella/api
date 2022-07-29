@@ -19,6 +19,7 @@ module.exports = (sequelize) => {
     },
     message: {
         type: DataTypes.STRING(1234),
+        allowNull: false
     }
 },{timestamps: false});
 };
