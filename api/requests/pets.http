@@ -5,7 +5,7 @@ Content-Type: application/json
 {
     "name": "Agustin",
     "type": "Perro",
-    "images":["https://www.elcampitorefugio.org/imgs/uploaded/780878.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/120237.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/8125.jpg"],
+    "images":["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119458/Huellas_folder/780878_l3gk2o.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119458/Huellas_folder/8125_z0yj7g.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119458/Huellas_folder/120237_gigcu3.jpg"],
     "age": "4 años",
     "gender":"Macho",
     "post_date":"2022-07-18",
@@ -20,7 +20,7 @@ Content-Type: application/json
 {
     "name": "Yuki",
     "type": "Gato",
-    "images": ["https://i.pinimg.com/564x/7b/ad/d2/7badd22798ebcd391fd43850826c092a.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119558/Huellas_folder/7badd22798ebcd391fd43850826c092a_gjz9lk.jpg"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2022-07-06",
@@ -35,7 +35,7 @@ Content-Type: application/json
 {
     "name": "Kali",
     "type": "Gato",
-    "images": ["https://www.huellascallejeras.com/wp-content/uploads/2020/10/mila-gato-en-adopcion-6-580x460.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119615/Huellas_folder/mila-gato-en-adopcion-6-580x460_gdyrev.jpg"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-05-01",
@@ -50,7 +50,7 @@ Content-Type: application/json
 {
     "name": "Maple",
     "type": "Gato",
-    "images": [ "https://pbs.twimg.com/media/FXBNtjhXkAA87VX?format=jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119685/Huellas_folder/FXBNtjhXkAA87VX_lewdxc.jpg"],
     "age": "7 meses",
     "gender": "Macho",
     "post_date": "2018-03-18",
@@ -65,7 +65,7 @@ Content-Type: application/json
 {   
     "name": "Nieve",
     "type": "Gato",
-    "images": [ "https://live.staticflickr.com/3227/5869530325_4d079315c8_z.jpg"],
+    "images": [ "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119720/Huellas_folder/5869530325_4d079315c8_z_yzqpiq.jpg"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2021-07-20",
@@ -80,7 +80,7 @@ Content-Type: application/json
 {
     "name": "Layza",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/470757.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/95189.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/847636.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119895/Huellas_folder/470757_rnrh0c.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119895/Huellas_folder/95189_vyvd8y.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119895/Huellas_folder/847636_g0aiph.jpg"],
     "age": "6 años",
     "gender": "Hembra",
     "post_date": "2022-06-03",
@@ -95,7 +95,7 @@ Content-Type: application/json
 {
     "name": "Oro",
     "type": "Perro",
-    "images": ["https://cdn.pixabay.com/photo/2021/05/04/12/55/border-collie-6228622_960_720.jpg", "https://upload.wikimedia.org/wikipedia/commons/6/65/Borderkolie.jpg", "https://cdn.pixabay.com/photo/2021/05/04/12/56/border-collie-6228625_960_720.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120012/Huellas_folder/border-collie-6228625_960_720_jvqgps.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120012/Huellas_folder/Borderkolie_ijkxcl.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120013/Huellas_folder/border-collie-6228622_960_720_qe1yqx.jpg"],
     "age": "8 meses",
     "gender": "Macho",
     "post_date": "2022-01-12",
@@ -110,7 +110,7 @@ Content-Type: application/json
 {
     "name": "Bella",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/748051.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/409848.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/532869.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120101/Huellas_folder/748051_npc9fn.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120101/Huellas_folder/532869_pdktqi.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120102/Huellas_folder/409848_bhzdve.jpg"],
     "age": "7 años",
     "gender": "Hembra",
     "post_date": "2022-02-07",
@@ -125,7 +125,7 @@ Content-Type: application/json
 {
     "name": "Nina",
     "type": "Gato",
-    "images": ["https://img.miwuki.com/a/92SWY3/250"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120197/Huellas_folder/250_asclzs.jpg"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2021-12-10",
@@ -140,7 +140,7 @@ Content-Type: application/json
 {
     "name":"Saint",
     "type":"Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/986902.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/921051.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/216749.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120289/Huellas_folder/986902_dmjc1w.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120288/Huellas_folder/216749_akjanr.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120289/Huellas_folder/921051_paklkb.jpg"],
     "age": "4 años",
     "gender": "Macho",
     "post_date": "2022-04-12",
@@ -170,7 +170,7 @@ Content-Type: application/json
 {
     "name": "Balthazar",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/980140.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/273729.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/62304.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120389/Huellas_folder/980140_i9fcfq.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120388/Huellas_folder/62304_ppbbcs.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120389/Huellas_folder/273729_xdjqfg.jpg"],
     "age": "7 años",
     "gender": "Macho",
     "post_date": "2021-11-20",
@@ -200,7 +200,7 @@ Content-Type: application/json
 {
     "name": "Norbert",
     "type": "Gato",
-    "images": ["https://www.cronica.com.ar/__export/1646915258169/sites/cronica/img/2022/03/10/gatos_naranjas_1_crop1646915099563.jpg_139781018.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120473/Huellas_folder/gatos_naranjas_1_crop1646915099563.jpg_139781018_lrk6vv.webp"],
     "age": "5 años",
     "gender": "Macho",
     "post_date": "2022-06-17",
@@ -215,7 +215,7 @@ Content-Type: application/json
 {
     "name": "Ahri",
     "type": "Gato",
-    "images": ["https://arcadenoe.org/imas/animales/_442/thumbnail_square.jpg?id=1389"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120508/Huellas_folder/thumbnail_square_krlpbu.jpg"],
     "age": "5 meses",
     "gender": "Hembra",
     "post_date": "2022-07-21",
@@ -230,7 +230,7 @@ Content-Type: application/json
 {
     "name": "Yummi",
     "type": "Gato",
-    "images": ["https://pbs.twimg.com/media/FOaQVs2XMAgWNBP?format=jpg&name=large"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120561/Huellas_folder/FOaQVs2XMAgWNBP_bqbrml.jpg"],
     "age": "8 meses",
     "gender": "Hembra",
     "post_date": "2022-02-13",
@@ -245,7 +245,7 @@ Content-Type: application/json
 {
     "name": "Paper",
     "type": "Perro",
-    "images": ["https://www.elcampitorefugio.org/imgs/uploaded/622486.jpg","https://www.elcampitorefugio.org/imgs/uploaded/188339.jpg", "https://www.elcampitorefugio.org/imgs/uploaded/663546.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120613/Huellas_folder/188339_aogd9g.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659120614/Huellas_folder/663546_x6tovs.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120614/Huellas_folder/622486_ahqpdx.jpg"],
     "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -260,7 +260,7 @@ Content-Type: application/json
 {
     "name": "Cofler",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Cofler-1_qrdiza.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Cofler-2_lhtab7.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Cofler-3_xsyldk.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120728/Huellas_folder/Cofler-1_qrdiza_uph0ue.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120729/Huellas_folder/Cofler-3_xsyldk_dedqy5.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120729/Huellas_folder/Cofler-2_lhtab7_jxkmqp.png"],
     "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -275,7 +275,7 @@ Content-Type: application/json
 {
     "name": "Hanabi",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Hanabi-1_s99mwh.png", "https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Hanabi-2_p9yoml.png", "https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Hanabi-3_sdrke3.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120845/Huellas_folder/Hanabi-1_s99mwh_qzmeim.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120845/Huellas_folder/Hanabi-2_p9yoml_bmld5s.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120847/Huellas_folder/Hanabi-3_sdrke3_navkwn.png"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -290,7 +290,7 @@ Content-Type: application/json
 {
     "name": "Humito",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Humito-1_hmjkwe.png", "https://res.cloudinary.com/joaco/image/upload/v1658530847/cats/Humito-2_jen9qo.png", "https://res.cloudinary.com/joaco/image/upload/v1658530846/cats/Humito-3_qlyign.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120951/Huellas_folder/Humito-3_qlyign_xc89ql.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120952/Huellas_folder/Humito-1_hmjkwe_tr0j9e.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659120952/Huellas_folder/Humito-2_jen9qo_nduaka.png"],
     "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -305,7 +305,7 @@ Content-Type: application/json
 {
     "name": "José",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Jose-3_dgrrza.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Jos%C3%A9-1_oav0hw.png", "https://res.cloudinary.com/joaco/image/upload/v1658530845/cats/Jos%C3%A9-2_agatlv.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121099/Huellas_folder/Jos%C3%A9-1_oav0hw_qkqykq.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121100/Huellas_folder/Jos%C3%A9-2_agatlv_yf4jtb.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121101/Huellas_folder/Jose-3_dgrrza_czwgyk.png"],
     "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -320,7 +320,7 @@ Content-Type: application/json
 {
     "name": "Kotaro",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530850/cats/Kotaro-1_cfd1bj.png", "https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Kotaro-2_ls81eb.png", "https://res.cloudinary.com/joaco/image/upload/v1658530850/cats/Kotaro-3_vhm1eq.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121193/Huellas_folder/Kotaro-3_vhm1eq_geekco.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121194/Huellas_folder/Kotaro-1_cfd1bj_yxst2c.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121194/Huellas_folder/Kotaro-2_ls81eb_ir7yrw.png"],
     "age": "4 meses",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -335,7 +335,7 @@ Content-Type: application/json
 {
     "name": "Leia",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-1_yetosn.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-2_nz4hgd.png", "https://res.cloudinary.com/joaco/image/upload/v1658530844/cats/Sven-3_a3sm4x.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121307/Huellas_folder/Sven-3_a3sm4x_zr4fys.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121307/Huellas_folder/Sven-2_nz4hgd_c1txic.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121308/Huellas_folder/Sven-1_yetosn_n0kgwj.png"],
     "age": "4 meses",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -350,7 +350,7 @@ Content-Type: application/json
 {
     "name": "Zafira",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Zafira-1_yibcwp.png", "https://res.cloudinary.com/joaco/image/upload/v1658530848/cats/Zafira-2_ojrhkf.png", "https://res.cloudinary.com/joaco/image/upload/v1658530849/cats/Zafira-3_rkrahx.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121491/Huellas_folder/Zafira-1_yibcwp_iumzll.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121492/Huellas_folder/Zafira-2_ojrhkf_h83nl4.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121492/Huellas_folder/Zafira-3_rkrahx_oopdih.png"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -365,7 +365,7 @@ Content-Type: application/json
 {
     "name": "Batman",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Batman-1_tborhd.png", "https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Batman-2_lb34ol.png", "https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Batman-3_pndhz8.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121606/Huellas_folder/Batman-1_tborhd_nibav5.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121605/Huellas_folder/Batman-2_lb34ol_cgtntf.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121605/Huellas_folder/Batman-3_pndhz8_k66qwc.png"],
     "age": "6 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -380,7 +380,7 @@ Content-Type: application/json
 {
     "name": "Abel",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Abel-2_yu7d1r.png", "https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Abel-3_zotu70.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Abel_-1_jjrpr7.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121728/Huellas_folder/Abel_-1_jjrpr7_urwyto.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121729/Huellas_folder/Abel-2_yu7d1r_ywnrbk.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121730/Huellas_folder/Abel-3_zotu70_cicpmi.png"],
     "age": "4 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -395,7 +395,7 @@ Content-Type: application/json
 {
     "name": "Abrojo",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Abrojo-1_qidjkk.png", "https://res.cloudinary.com/joaco/image/upload/v1658531530/dogs/Abrojo-2_dnmbca.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Abrojo-3_lmfdbe.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121813/Huellas_folder/Abrojo-1_qidjkk_hqoybz.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121812/Huellas_folder/Abrojo-2_dnmbca_rrqllc.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121812/Huellas_folder/Abrojo-3_lmfdbe_bssz9y.png"],
     "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -411,7 +411,7 @@ Content-Type: application/json
 {
     "name": "Bianca",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531531/dogs/Bianca-1_q1pxzn.png", "https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Bianca-2_kunvxn.png", "https://res.cloudinary.com/joaco/image/upload/v1658531532/dogs/Bianca-3_nvo3gt.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121909/Huellas_folder/Bianca-2_kunvxn_tzuds2.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121911/Huellas_folder/Bianca-1_q1pxzn_ur1byo.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121911/Huellas_folder/Bianca-3_nvo3gt_gxjnst.png"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -426,7 +426,7 @@ Content-Type: application/json
 {
     "name": "Uma",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531527/dogs/Braulio-1_yknkv8.png", "https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Braulio-2_phmaqb.png", "https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Braulio-3_yw4yl2.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659121988/Huellas_folder/Braulio-3_yw4yl2_rxefdf.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121989/Huellas_folder/Braulio-1_yknkv8_l59wy1.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659121990/Huellas_folder/Braulio-2_phmaqb_n62tox.png"],
     "age": "8 meses",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -441,7 +441,7 @@ Content-Type: application/json
 {
     "name": "Jade",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/joaco/image/upload/v1658531529/dogs/Jade-1_ast7wc.png", "https://res.cloudinary.com/joaco/image/upload/v1658531528/dogs/Jade-2_qk0cfl.png", "https://res.cloudinary.com/joaco/image/upload/v1658531526/dogs/Jade-3_rfdvii.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122081/Huellas_folder/Jade-3_rfdvii_gfkvuv.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122081/Huellas_folder/Jade-1_ast7wc_onxbnu.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122083/Huellas_folder/Jade-2_qk0cfl_o94nwm.png"],
     "age": "5 años",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -456,7 +456,7 @@ Content-Type: application/json
 {
     "name": "Garfiel",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659033272/Huellas_folder/Sin_t%C3%ADtuloa_tu96mr.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033272/Huellas_folder/Sin_t%C3%ADtualo_k833yt.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033273/Huellas_folder/Sin_t%C3%ADtdulo_hbvxgn.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122185/Huellas_folder/Sin_t%C3%ADtuloa_tu96mr_vbueya.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122185/Huellas_folder/Sin_t%C3%ADtualo_k833yt_rdqyxx.png"],
     "age": "1 año y medio",
     "gender": "Macho",
     "post_date": "2022-07-13",
@@ -471,7 +471,7 @@ Content-Type: application/json
 {
     "name": "Rolo",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659033782/Huellas_folder/Sin_t%C3%ADtulsao_s6ke4d.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033783/Huellas_folder/Sin_tsasas%C3%ADtulo_ot38x5.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659033782/Huellas_folder/Sin_t%C3%ADtuloasas_ravawq.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122273/Huellas_folder/Sin_t%C3%ADtuloasas_ravawq_ta01nq.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122274/Huellas_folder/Sin_t%C3%ADtulsao_s6ke4d_w8egs5.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122275/Huellas_folder/Sin_tsasas%C3%ADtulo_ot38x5_cpwazz.png"],
     "age": "5 años",
     "gender": "Macho",
     "post_date": "2022-07-15",
@@ -486,7 +486,7 @@ Content-Type: application/json
 {
     "name": "Paquito",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659034285/Huellas_folder/Sin_t%C3%ADtulsaas_mrqr5n.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034286/Huellas_folder/Sin_t%C3%ADtasaeulo_cwhxc9.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034286/Huellas_folder/Sin_t%C3%ADtaulo_ywjwtw.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122362/Huellas_folder/Sin_t%C3%ADtulsaas_mrqr5n_w8qvub.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122363/Huellas_folder/Sin_t%C3%ADtasaeulo_cwhxc9_azf5cx.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122364/Huellas_folder/Sin_t%C3%ADtaulo_ywjwtw_fnmjzo.png"],
     "age": "5 meses",
     "gender": "Perro",
     "post_date": "2022-07-17",
@@ -501,7 +501,7 @@ Content-Type: application/json
 {
     "name": "Ramoncito",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659034966/Huellas_folder/Sin_t%C3%ADtulasaso_to2kf0.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034965/Huellas_folder/Sin_tewe%C3%ADtulo_uyoczy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659034965/Huellas_folder/Sin_t%C3%ADtassasulo_pahyc4.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122500/Huellas_folder/Sin_tewe%C3%ADtulo_uyoczy_llbazh.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122501/Huellas_folder/Sin_t%C3%ADtulasaso_to2kf0_cl4dze.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122501/Huellas_folder/Sin_t%C3%ADtassasulo_pahyc4_ah7hpf.png"],
     "age": "4 meses",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -516,7 +516,7 @@ Content-Type: application/json
 {
     "name": "Derek",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659035516/Huellas_folder/Sin_t%C3%ADtualo_gu1zhh.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035517/Huellas_folder/Sin_t%C3%ADtulo_kllqk8.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035517/Huellas_folder/Sin_t%C3%ADtasdulo_m1biwz.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122585/Huellas_folder/Sin_t%C3%ADtualo_gu1zhh_dwulql.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122586/Huellas_folder/Sin_t%C3%ADtasdulo_m1biwz_wybf5m.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122587/Huellas_folder/Sin_t%C3%ADtulo_kllqk8_e0y1qh.png"],
     "age": "1 año y medio",
     "gender": "Macho",
     "post_date": "2022-07-01",
@@ -531,7 +531,7 @@ Content-Type: application/json
 {
     "name": "Panchito",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659035793/Huellas_folder/Sin_t%C3%ADtdulo_oh5nkd.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035794/Huellas_folder/Sin_t%C3%ADsatulo_ircrsk.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659035795/Huellas_folder/Sin_st%C3%ADtulo_ldc7gp.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122686/Huellas_folder/Sin_st%C3%ADtulo_ldc7gp_v5rcpe.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122686/Huellas_folder/Sin_t%C3%ADtdulo_oh5nkd_ur7q4j.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122687/Huellas_folder/Sin_t%C3%ADsatulo_ircrsk_wevygx.png"],
     "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-07-13",
@@ -561,7 +561,7 @@ Content-Type: application/json
 {
     "name": "Jack",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659036791/Huellas_folder/s_s5rqnj.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036791/Huellas_folder/Sin_tsa%C3%ADtulo_zvt89x.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659036789/Huellas_folder/Sinas_t%C3%ADtulo_k5bmub.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122797/Huellas_folder/s_s5rqnj_cqcgk6.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122798/Huellas_folder/Sinas_t%C3%ADtulo_k5bmub_mxsvsr.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122798/Huellas_folder/Sin_tsa%C3%ADtulo_zvt89x_bykft4.png"],
     "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-07-11",
@@ -576,7 +576,7 @@ Content-Type: application/json
 {
     "name": "Mandy",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659037216/Huellas_folder/Sin_t%C3%ADtaasxulo_ohasdu.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037216/Huellas_folder/asas_lis4cu.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037217/Huellas_folder/Sin_t%C3%ADtusaclo_mbgthl.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122897/Huellas_folder/asas_lis4cu_gmiubi.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122897/Huellas_folder/Sin_t%C3%ADtusaclo_mbgthl_z50yvd.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122897/Huellas_folder/Sin_t%C3%ADtaasxulo_ohasdu_epqz8o.png"],
     "age": "1 año y medio",
     "gender": "Hembra",
     "post_date": "2022-06-26",
@@ -591,7 +591,7 @@ Content-Type: application/json
 {
     "name": "Claudia",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659037536/Huellas_folder/Sin_sasasw_t1lpag.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037535/Huellas_folder/Sin_t%C3%ADtqwrulo_e3louy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659037537/Huellas_folder/Sin_t%C3%ADtswqulo_c6hs4l.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123008/Huellas_folder/Sin_t%C3%ADtqwrulo_e3louy_zwbopo.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123010/Huellas_folder/Sin_t%C3%ADtswqulo_c6hs4l_crhct3.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123010/Huellas_folder/Sin_sasasw_t1lpag_uqzyba.png"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-07-11",
@@ -606,7 +606,7 @@ Content-Type: application/json
 {
     "name": "Isaac",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_t%C3%ADtwrgulo_wwqukp.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_t%C3%ADtusawlo_cag9rs.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038211/Huellas_folder/Sin_tsaw%C3%ADtulo_dj6ysm.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123114/Huellas_folder/Sin_t%C3%ADtwrgulo_wwqukp_wsljzo.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123114/Huellas_folder/Sin_tsaw%C3%ADtulo_dj6ysm_zdqeli.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123115/Huellas_folder/Sin_t%C3%ADtusawlo_cag9rs_gdnh9w.png"],
     "age": "5 meses",
     "gender": "Macho",
     "post_date": "2022-07-21",
@@ -621,7 +621,7 @@ Content-Type: application/json
 {
     "name": "Olga",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADswtulo_hhcxv7.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADtrulo_av3jdy.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659038486/Huellas_folder/Sin_t%C3%ADtuswtlo_ciqlxw.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123197/Huellas_folder/Sin_t%C3%ADswtulo_hhcxv7_pdebui.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123197/Huellas_folder/Sin_t%C3%ADtuswtlo_ciqlxw_me4fzh.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123199/Huellas_folder/Sin_t%C3%ADtrulo_av3jdy_orvoc4.png"],
     "age": "10 años",
     "gender": "Hembra",
     "post_date": "2022-06-13",
@@ -636,7 +636,7 @@ Content-Type: application/json
 {
     "name": "Lazaro",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/lazaro_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/lazaro_9.webp", "https://ayudacan.org/wp-content/uploads/2022/01/lazaro_10.webp"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123293/Huellas_folder/lazaro_portada_sxukqk.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123293/Huellas_folder/lazaro_9_c72nwu.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123293/Huellas_folder/lazaro_10_anr91b.webp"],
     "age": "5 años",
     "gender": "Macho",
     "post_date": "2022-07-25",
@@ -651,7 +651,7 @@ Content-Type: application/json
 {
     "name": "Pamba",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/pampa_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/pampa_15.webp", "https://ayudacan.org/wp-content/uploads/2022/01/pampa_14.webp"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123376/Huellas_folder/pampa_portada_ddamfs.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123377/Huellas_folder/pampa_15_fppmcr.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123378/Huellas_folder/pampa_14_vbjyjf.webp"],
     "age": "5 años",
     "gender": "Macho",
     "post_date": "2022-06-13",
@@ -666,7 +666,7 @@ Content-Type: application/json
 {
     "name": "Miel",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/huellitas2/image/upload/v1659039417/Huellas_folder/Sin_tsawwq%C3%ADtulo_mco6ku.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659039418/Huellas_folder/Sin_t%C3%ADswtulo_rhf0bk.png", "https://res.cloudinary.com/huellitas2/image/upload/v1659039419/Huellas_folder/Sin_t%C3%ADtusawwlo_xdz7tq.png"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123517/Huellas_folder/Sin_tsawwq%C3%ADtulo_mco6ku_mfmtqu.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123517/Huellas_folder/Sin_t%C3%ADswtulo_rhf0bk_qmaqn4.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123517/Huellas_folder/Sin_t%C3%ADtusawwlo_xdz7tq_d1byuk.png"],
     "age": "3 meses",
     "gender": "Hembra",
     "post_date": "2022-06-29",
@@ -681,7 +681,7 @@ Content-Type: application/json
 {
     "name": "Mora",
     "type": "Perro",
-    "images": ["", "", ""],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Sky-Fundacion-Adopta-No-Compres_oi8s7b.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Gaspar-Fundacion-Adopta-No-Compres_lvzsnj.jpg"],
     "age": "5 meses",
     "gender": "Hembra",
     "post_date": "2022-06-30",
@@ -696,7 +696,7 @@ Content-Type: application/json
 {
     "name": "Kronos",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/kronos_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/kronos_13.webp", "https://ayudacan.org/wp-content/uploads/2022/01/kronos_12.webp"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123699/Huellas_folder/kronos_portada_y4frok.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123700/Huellas_folder/kronos_12_vzmts9.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123702/Huellas_folder/kronos_13_gcv6uz.webp"],
     "age": "3 años",
     "gender": "Macho",
     "post_date": "2022-07-01",
@@ -711,7 +711,7 @@ Content-Type: application/json
 {
     "name": "Dj",
     "type": "Perro",
-    "images": ["https://ayudacan.org/wp-content/uploads/2022/01/dj_portada.webp", "https://ayudacan.org/wp-content/uploads/2022/01/dj_16.webp", "https://ayudacan.org/wp-content/uploads/2022/01/dj_7.webp"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659123779/Huellas_folder/dj_portada_volw5c.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123779/Huellas_folder/dj_7_i6nssr.webp", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659123781/Huellas_folder/dj_16_swuu9e.webp"],
     "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-07-25",
