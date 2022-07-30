@@ -13,12 +13,6 @@ const checkUser = async (req, res) => {
             const user = await User.create(req.body);
             return res.json(user);
         }
-        else if (userExists && !foundationExists) {
-            return res.json({ user: userExists.dataValues });
-        }
-        else {
-            return res.json({ foundation: foundationExists.dataValues });
-        }
     } 
     catch (error) {
         return res.status(404).json({ message: error.message });
@@ -40,7 +34,7 @@ const getUserByEmail = async (req, res) => {
     const { email } = req.params;
 
     try {
-        const user = await User.findOne({include: [Request_adopt, Donation] },{ where: { email:email }} );
+        const user = await User.findOne({ where: { email }}, {include: [Request_adopt, Donation]} );
 
         user ? res.json(user) : res.status(400).json({ message: "User not found " });
     }
