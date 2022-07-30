@@ -21,6 +21,9 @@ module.exports = (sequelize) => {
         type : DataTypes.ENUM("paypal", "mercadoPago"),
         allowNull: false
     },
+    currency:{
+      type: DataTypes.ENUM("usd", "$")
+    },
     date : {
         type: DataTypes.DATEONLY,
         defaultValue: DataTypes.NOW
