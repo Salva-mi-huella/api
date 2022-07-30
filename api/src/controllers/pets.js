@@ -9,7 +9,7 @@ const postPet = async (req, res) => {
 		}
 
 		const petExists = await Pet.findOne({ where: { description }});
-		
+
 		if (!petExists) {
 			const pet = await Pet.create(req.body);
 			pet.setFoundation(foundation);
@@ -20,6 +20,46 @@ const postPet = async (req, res) => {
 	catch (error) {
 		return res.status(404).json({ message: error.message });
 	}
+}
+
+const updatePet = async (req, res) => {
+	const { id } = req.params;
+
+	const { name, images, type, age, gender, description } = req.body;
+
+	try {
+		const updatedPet = await Pet.update({
+			name: name,
+			images: images,
+			type: type,
+			age: age,
+			gender: gender,
+			description: description
+		}, { where: { id }});
+
+		updatedPet ? res.json({ message: "Pet updated successfully" }) : res.status(404).json({ message: "Pet has not been updated "});
+	}
+	catch (error) {
+		return res.status(404).json({ message: error.message });
+	}
+}
+
+const updatePetStatus = async (req, res) => {
+	const { id } = req.params;
+
+	const { adopted } = req.body;
+	
+	try {
+		const updatedPet = await Pet.update({
+			adopted: adopted
+		}, { where: { id }});
+		
+		updatedPet ? res.json({ message: "Status updated successfully" }) : res.status(404).json({ message: "The status has not been updated" });
+	} 
+	catch (error) {
+		return res.status(404).json({ message: error.message });
+	}
+
 }
 
 const getPets = async (req, res) => {
@@ -71,6 +111,8 @@ const getPetByID = async (req, res) => {
 
 module.exports = {
 	postPet,
+	updatePet,
+	updatePetStatus,
 	getPets,
 	getPetByID
 }
