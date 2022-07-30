@@ -48,9 +48,6 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
      
     },
-    currency:{
-      type: DataTypes.ENUM("usd", "$")
-    },
     images:{
       type: DataTypes.ARRAY(DataTypes.STRING(1234)),
     }
