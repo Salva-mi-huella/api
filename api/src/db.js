@@ -72,6 +72,9 @@ News.belongsTo(Foundation);
 // RELACION 1:N (Foundation - RequestAdopt- User)
 Foundation.hasMany(Request_adopt);
 Request_adopt.belongsTo(User);
+Request_adopt.belongsTo(Foundation);
+Pet.hasMany(Request_adopt);
+Request_adopt.belongsTo(Pet);
 User.hasMany(Request_adopt);
 
 // RELACION 1:N (Foundation - Donation- User)

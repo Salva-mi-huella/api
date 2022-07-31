@@ -70,7 +70,7 @@ const getPets = async (req, res) => {
 		let pets = await Pet.findAll({
 			include: {
 				model: Foundation,
-				attributes: ["name", "images"]
+				attributes: ["name", "images", "city"]
 			}
 		})
 
