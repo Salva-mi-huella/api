@@ -34,7 +34,7 @@ const getUserByEmail = async (req, res) => {
     const { email } = req.params;
 
     try {
-        const user = await User.findOne({ where: { email }}, {include: [Request_adopt, Donation]} );
+        const user = await User.findOne({ where: { email }, include: [Request_adopt, Donation]} );
 
         user ? res.json(user) : res.status(400).json({ message: "User not found " });
     }
