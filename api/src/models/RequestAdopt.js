@@ -29,6 +29,10 @@ module.exports = (sequelize) => {
         type: DataTypes.INTEGER,
         allowNull: false
     },
+     post_date: {
+        type: DataTypes.DATEONLY,
+        defaultValue: DataTypes.NOW
+      },
     textarea: {
         type: DataTypes.STRING(1234),
         allowNull: false
