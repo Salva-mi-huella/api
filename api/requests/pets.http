@@ -1,4 +1,5 @@
-@api = https://salva-mi-huella-api.herokuapp.com
+# @api = https://salva-mi-huella-api.herokuapp.com
+@api = http://localhost:4000
 
 ### Pet 1 
 POST {{api}}/pets
