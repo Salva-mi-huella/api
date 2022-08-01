@@ -8,6 +8,7 @@ __IMPORTANTE:__ Recuerden colocar en el archivo index.js ("force: false"), para 
  DB_PASSWORD=passwordDePostgres
  DB_HOST=localhost
  DB_NAME=your_name_db
+ PORT=4000
 ```
 - Crear database (nombre recomendable: "salva_mi_huella").
 - Levantar servidor con comando npm start
