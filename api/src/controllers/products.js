@@ -80,6 +80,5 @@ const updateProductByID = async (req, res) => {
         postProduct,
         getProducts,
         getProductByID,
-        deleteProductByID,
         updateProductByID
     }
