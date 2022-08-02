@@ -23,7 +23,7 @@ Content-Type: application/json
 {
     "name": "Yuki",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119558/Huellas_folder/7badd22798ebcd391fd43850826c092a_gjz9lk.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659473704/Huellas_folder/297001136_5479815478707144_7627036216985496217_n_khdsva.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659473704/Huellas_folder/296916671_5479815552040470_5839273449731105081_n_bxagzk.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659473704/Huellas_folder/297017496_5479815468707145_4400633357015964160_n_qhibyu.jpg"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2022-07-06",
@@ -38,7 +38,7 @@ Content-Type: application/json
 {
     "name": "Kali",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119615/Huellas_folder/mila-gato-en-adopcion-6-580x460_gdyrev.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659474039/Huellas_folder/295640334_10159947895703928_8618596753714730586_n_bjw9k6.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474040/Huellas_folder/296150449_10159947895758928_6405559628392744232_n_zxvdnp.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474040/Huellas_folder/295805527_10159947895803928_6287614647021637916_n_bpqa7r.jpg"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2022-05-01",
@@ -53,11 +53,11 @@ Content-Type: application/json
 {
     "name": "Maple",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659119685/Huellas_folder/FXBNtjhXkAA87VX_lewdxc.jpg"],
-    "age": "7 meses",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659474292/Huellas_folder/295971265_7828565573881263_6459313827122641925_n_ni22vp.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659474293/Huellas_folder/295721908_7828565537214600_7589061316504241735_n_vchntr.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659474293/Huellas_folder/295758424_7828565667214587_5118805326608501215_n_mcfya1.jpg"],
+    "age": "11 meses",
     "gender": "Macho",
     "post_date": "2018-03-18",
-    "description": "Ojitos llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
+    "description": "Maple llegó al borde la muerte, con una sentencia de eutanasia pendiendo sobre su cabeza. Víctima del moquillo y de unas infecciones terribles que, literalmente, se lo estaban comiendo vivo. Estuvo internado 52 días, tiempo durante el cual los veterinarios tuvieron que amputarle las patas y la cola para que pudiera salir adelante. Ojitos, hoy, es un canto a la vida, un símbolo de esperanza, siempre alegre, curioso y con mucho amor para dar.",
     "foundation": 4
 }
 
@@ -66,13 +66,13 @@ POST {{api}}/pets
 Content-Type: application/json
 
 {   
-    "name": "Nieve",
+    "name": "Manchita",
     "type": "Gato",
-    "images": [ "https://res.cloudinary.com/djasy7hxk/image/upload/v1659119720/Huellas_folder/5869530325_4d079315c8_z_yzqpiq.jpg"],
+    "images": [ "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474632/Huellas_folder/Sin_t%C3%ADtulo_btkk40.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474629/Huellas_folder/295670896_5593392437377839_4297510033836258862_n_f4qfm3.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474629/Huellas_folder/296385583_5593392594044490_2532079126248137564_n_fvqjmr.jpg"],
     "age": "1 año",
     "gender": "Hembra",
     "post_date": "2021-07-20",
-    "description": "Muchos ya conocerán a nuestra hermosa Nieve. Ella es una gatita rescatada preñada del predio de Palermo hace casi 2 años. Es vif+ y desde su rescate hasta hoy tuvimos diversas consultas y estuvo bajo distintos tratamientos sin éxito, debido a diarreas intermitentes. Hace poco, Yuki comenzó a bajar de peso y el mes pasado tuvimos consulta con Amelia Gisbert, quien la derivó a la gastroenterologa Marta Zubaldía",
+    "description": "Muchos ya conocerán a nuestra hermosa Manchita. Ella es una gatita rescatada preñada del predio de Palermo hace casi 2 años. Es vif+ y desde su rescate hasta hoy tuvimos diversas consultas y estuvo bajo distintos tratamientos sin éxito, debido a diarreas intermitentes. Hace poco, Manchita comenzó a bajar de peso y el mes pasado tuvimos consulta con Amelia Gisbert, quien la derivó a la gastroenterologa Marta Zubaldía",
     "foundation": 5
 }
 
@@ -128,7 +128,7 @@ Content-Type: application/json
 {
     "name": "Nina",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120197/Huellas_folder/250_asclzs.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659474821/Huellas_folder/296841130_10228101265818339_2863420134858234352_n_1_nnqisi.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474822/Huellas_folder/296987302_10228101265858340_702032356690359958_n_vo2cdu.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659474821/Huellas_folder/296841130_10228101265818339_2863420134858234352_n_1_nnqisi.jpg"],
     "age": "2 años",
     "gender": "Hembra",
     "post_date": "2021-12-10",
@@ -157,12 +157,12 @@ Content-Type: application/json
 
 {
     "name": "Panchito",
-    "type": "Perro",
-    "images": ["https://adopt-a-pet.s3.amazonaws.com/pet_pictures/assets/000/083/023/home/uploads_2Ff0e51aa6-2e64-4f3a-985f-a0eef0c327e9_2FIMG-20220612-WA0132.jpg"],
-    "age": "3 meses",
+    "type": "Gato",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659475464/Huellas_folder/291744236_10228391513759565_1065532198805828231_n_m1r7qk.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659475463/Huellas_folder/292270293_10228391510959495_6300023718029423963_n_px3h51.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659475464/Huellas_folder/293243944_10228391510519484_2379098084776754962_n_rycbtp.jpg"],
+    "age": "8 meses",
     "gender": "Macho",
     "post_date": "2022-07-10",
-    "description": "Panchito crece saludable, tiene 3 meses, super cariñoso, solo ronronea y pide brazos",
+    "description": "Panchito crece saludable, tiene 8 meses, super cariñoso, solo ronronea y pide brazos",
     "foundation": 3
 }
 
@@ -203,8 +203,8 @@ Content-Type: application/json
 {
     "name": "Norbert",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120473/Huellas_folder/gatos_naranjas_1_crop1646915099563.jpg_139781018_lrk6vv.webp"],
-    "age": "5 años",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659475758/Huellas_folder/296437893_465868392209742_1953264438182707914_n_adnd22.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659475758/Huellas_folder/294877970_465868428876405_7883812233448852071_n_nzjdlt.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659475759/Huellas_folder/296320447_465868898876358_5852315859164381578_n_zq6msh.jpg"],
+    "age": "2 años",
     "gender": "Macho",
     "post_date": "2022-06-17",
     "description": "Este hermoso gatito está en los bosques de palermo. Se encuentra muy flaquito y solo, pero es super cariñoso. Necesitamos un tránsito para poder sacarlo de ahi, castrarlo, y poder conseguirle un hogar",
@@ -218,11 +218,11 @@ Content-Type: application/json
 {
     "name": "Ahri",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120508/Huellas_folder/thumbnail_square_krlpbu.jpg"],
-    "age": "5 meses",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659476016/Huellas_folder/296680030_5792037254157681_2286265577492981635_n_peqmjm.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659476016/Huellas_folder/296190233_5792036694157737_798954843591781032_n_moyxzg.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659476016/Huellas_folder/295407112_5792037607490979_6077493831736491626_n_qetu7a.jpg"],
+    "age": "3 años",
     "gender": "Hembra",
     "post_date": "2022-07-21",
-    "description": "Ahri es una gata de apenas 5 meses de edad, que fue abandonado con tres meses. Especialmente sensible, ahora se encuentra en un centro veterinario luchando contra la gran tristeza en la que está sumido que le lleva a no comer ni beber por sus propios medios., pedimos una adopción urgente para ella.",
+    "description": "Ahri es una gata de apenas 3 años de edad, que fue abandonado. Especialmente sensible, ahora se encuentra en un centro veterinario luchando contra la gran tristeza en la que está sumido que le lleva a no comer ni beber por sus propios medios., pedimos una adopción urgente para ella.",
     "foundation": 5
 }
 
@@ -233,11 +233,11 @@ Content-Type: application/json
 {
     "name": "Yummi",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659120561/Huellas_folder/FOaQVs2XMAgWNBP_bqbrml.jpg"],
-    "age": "8 meses",
-    "gender": "Hembra",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659476197/Huellas_folder/294995500_10160203493339533_3653743500493923121_n_kr4qdt.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659476197/Huellas_folder/296145047_10160203493159533_8110339359510321697_n_covpkz.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659476198/Huellas_folder/296278721_10160203493139533_1421078937207255799_n_v7rgto.jpg"],
+    "age": "10 meses",
+    "gender": "Macho",
     "post_date": "2022-02-13",
-    "description": "Yummi, una gatita muy cariñosa de apenas 8 meses a quien le encanta jugar con su bolita de lana, necesita un hogar de tránsito para poder recibir todo el amor que se merece.",
+    "description": "Yummi, un gato muy cariñoso de apenas 10 meses a quien le encanta jugar con su bolita de lana, necesita un hogar de tránsito para poder recibir todo el amor que se merece.",
     "foundation": 6
 }
 
@@ -459,11 +459,11 @@ Content-Type: application/json
 {
     "name": "Garfiel",
     "type": "Gato",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122185/Huellas_folder/Sin_t%C3%ADtuloa_tu96mr_vbueya.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122185/Huellas_folder/Sin_t%C3%ADtualo_k833yt_rdqyxx.png"],
-    "age": "1 año y medio",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659477065/Huellas_folder/295834225_10221006152568256_7416657267981967639_n_japish.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659477065/Huellas_folder/295536037_10221006152848263_5500130180646926765_n_na88ud.jpg","https://res.cloudinary.com/djasy7hxk/image/upload/v1659477064/Huellas_folder/295915851_10221006153008267_3325959030224089095_n_mdf6jo.jpg" ],
+    "age": "3 meses",
     "gender": "Macho",
     "post_date": "2022-07-13",
-    "description": "Hermoso gato macho de 1 año y medio, esta castrado, con vacunas, es bueno y sociable, esta en tránsito pero muy pronto se acabará, deberá venir al refugio, donde padecerá frío y no es lo ideal luego de estar en un departamento por eso ayudanos ",
+    "description": "Hermoso gato macho de 3 meses,  es bueno y sociable, esta en tránsito pero muy pronto se acabará, deberá venir al refugio, donde padecerá frío y no es lo ideal luego de estar en un departamento por eso ayudanos ",
     "foundation": 2
 }
 
@@ -684,7 +684,7 @@ Content-Type: application/json
 {
     "name": "Mora",
     "type": "Perro",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Sky-Fundacion-Adopta-No-Compres_oi8s7b.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Gaspar-Fundacion-Adopta-No-Compres_lvzsnj.jpg"],
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Sky-Fundacion-Adopta-No-Compres_oi8s7b.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659124075/Huellas_folder/Gaspar-Fundacion-Adopta-No-Compres_lvzsnj.jpg", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659477439/Huellas_folder/6fc1fa733fda64aefdfec45c074e8c15_gylfyy.jpg"],
     "age": "5 meses",
     "gender": "Hembra",
     "post_date": "2022-06-30",
