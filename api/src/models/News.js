@@ -14,11 +14,15 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     description: {
-      type: DataTypes.STRING(3000),
+      type: DataTypes.STRING(30000),
     },
-    little_description: {
+    campaign:{
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
+    foundationsImage:{
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     post_date: {
       type: DataTypes.DATEONLY,

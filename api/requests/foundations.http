@@ -35,7 +35,7 @@ Content-Type: application/json
     "telephone_number": "(240) 824-8794",
     "email": "wotagoy136@falsy.com",
     "images": [
-        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg" ],
+        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg"],
     "website": null,
     "instagram": "https://www.instagram.com/gatitosdepalermo/?hl=es"
 }

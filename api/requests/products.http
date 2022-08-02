@@ -504,7 +504,7 @@ Content-Type: application/json
     "images": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659198277/Huellas_folder/1463-collar-para-perros-con-panuelo11-29bbaacc7ec5e5c93115969086153348-640-0_ycqydt.jpg",
     "points": 910,
     "description": "Collares para perros realizados en ecocuero. Este modelo, en la cara exterior del collar posee un pañuelo que le otorga un toque de distinción y belleza a la mascota.Fácil de limpiarVenta mayorista. Modelos y colores variados. Medidas:1 mm de ancho x 35cms de largo ",
-    "type": "Perros",
+    "type": "Perro",
     "category": "Accesorios"
 }
 
