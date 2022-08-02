@@ -14,6 +14,10 @@ module.exports = (sequelize) => {
       allowNull: false,
       unique: true,
     },
+    description: {
+      type: DataTypes.STRING(1234),
+      allowNull: false
+    },
     state:{
       type: DataTypes.STRING,
       allowNull: false,
@@ -41,12 +45,21 @@ module.exports = (sequelize) => {
       unique: true,
     },
     instagram:{
-      type: DataTypes.STRING,
-      
+      type: DataTypes.STRING
     },
     website:{
+      type: DataTypes.STRING
+    },
+    alias: {
       type: DataTypes.STRING,
-     
+      unique: true
+    },
+    CBU: {
+      type: DataTypes.STRING,
+      unique: true
+    },
+    bank: {
+      type: DataTypes.STRING
     },
     images:{
       type: DataTypes.ARRAY(DataTypes.STRING(1234)),

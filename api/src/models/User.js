@@ -47,6 +47,13 @@ module.exports = (sequelize) => {
       type: DataTypes.ENUM("Si", "No"),
       defaultValue: "No"
     },
+    admin: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    },
+    favs: {
+      type: DataTypes.ARRAY(DataTypes.STRING)
+    },
     points: {
       type: DataTypes.INTEGER,
       defaultValue: 500

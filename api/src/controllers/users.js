@@ -8,7 +8,9 @@ const checkUser = async (req, res) => {
 
     try {
         if (!name || !nickname || !email) return res.status(400).json({ message: "Missing data" });
-
+        
+        if(userExists) return res.status(400).json({ message: "User already exists" });
+        
         if (!userExists && !foundationExists) {
             const user = await User.create(req.body);
             return res.json(user);
@@ -45,8 +47,12 @@ const getUserByEmail = async (req, res) => {
 
 const putUser = async (req, res) => { 
     const { email: paramEmail } = req.params;
-    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points,transit } = req.body;
+    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points, transit, favs, admin } = req.body;
     
+    const userExists = await User.findOne({ where: { email: paramEmail }});
+
+    if (!userExists) return res.status(400).json({ message: "User not found"});
+
     try {
         const response = await User.update(
             {
@@ -60,7 +66,9 @@ const putUser = async (req, res) => {
                 telephone_number: telephone_number,
                 address: address,
                 points: points,
-                transit: transit
+                transit: transit,
+                favs: favs,
+                admin: admin
             }, {where: { email: paramEmail }}
         )
         response ? res.json({message: "Data updated successfully"}) : res.json({ message: "The data has not been updated" });

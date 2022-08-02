@@ -17,13 +17,21 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false
     },
+    telephone: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     post_date: {
         type: DataTypes.DATEONLY,
         defaultValue: DataTypes.NOW
-      },
+    },
     message: {
         type: DataTypes.STRING(1234),
         allowNull: false
+    },
+    status: {
+				type: DataTypes.ENUM("Pendiente", "Aprobada", "Rechazada"),
+				defaultValue: "Pendiente"
     }
-},{timestamps: false});
+  },{timestamps: false});
 };
