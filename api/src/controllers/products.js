@@ -51,8 +51,34 @@ const getProductByID = async (req, res) => {
 	}
 }
 
+
+// -------------------RUTA PUT PRODUCT BY ID -----------------------
+const updateProductByID = async (req, res) => {
+    const { id } = req.params;
+    const { name, points, images, post_date, type, description, status, category } = req.body;
+    try {
+        const product = await Product.findByPk(id);
+        if (!product) return res.status(400).json({ message: "Product not found" });
+        else{
+            await product.update({
+                name,
+                points,
+                images,
+                post_date,
+                type,
+                description,
+                status,
+                category
+            });
+            return res.json("Data updated successfully");
+        }
+    } catch (error) {
+        res.status(404).json({ message: error.message });
+    }
+}
     module.exports = {
         postProduct,
         getProducts,
-        getProductByID
+        getProductByID,
+        updateProductByID
     }
