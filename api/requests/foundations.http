@@ -147,7 +147,7 @@ POST {{api}}/foundations
 Content-Type: application/json
 
 {
-    "name": "Patias Glew",
+    "name": "Patitas Glew",
     "state": "Buenos Aires",
     "city": "Glew",
     "address": "Piedad 124",
