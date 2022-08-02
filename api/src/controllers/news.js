@@ -2,9 +2,9 @@ const { News, Foundation } = require("../db");
 
 //RUTA PARA POST NEWS
 const postNews = async (req,res) =>{
-    const { title, foundation, little_description } = req.body;
+    const { title, foundation, description, images } = req.body;
     try {
-        if (!title || !little_description) {
+        if (!title || !description || !images) {
             return res.status(400).json({ message: "Missing data" });
         }
         const news = await News.create(req.body);

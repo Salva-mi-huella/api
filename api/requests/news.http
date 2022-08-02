@@ -18,11 +18,11 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Disney encuentra un hogar feliz",
-    "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659198562/Huellas_folder/EdzmeuDXsAgGNLZ_reuckf.jpg"],
-    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg",
-    "foundation": 2
+    "title": "Amor a primera vista",
+    "description": "Mariano y Laura no dudaron ni un instante al ver a nuestro querido Rocco. Una huella más se ha salvado, y una familia más se ha formado.",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462242/Huellas_folder/adoptant_c_jshxd5.png"],
+    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196576/Huellas_folder/116420315_10158358571546047_911541206074533929_n_m8n2qj.jpg",
+    "foundation": 6
 }
 
 ### News 3
@@ -30,23 +30,24 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Disney encuentra un hogar feliz",
-    "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659198562/Huellas_folder/EdzmeuDXsAgGNLZ_reuckf.jpg"],
-    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196223/Huellas_folder/cabeza-gato-lindo-logo-dibujos-animados-cabeza-gato-bueno-productos-relacionados-cuidado-gatos_487414-292_ppb8mx.webp",
-    "foundation": 3
+    "title": "Una nueva amistad",
+    "description": "Manchitas ha partido de nuestro cuidado para seguir su camino de vida junto a Juan.",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462295/Huellas_folder/adoptant_d_v9khc4.png"],
+    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196664/Huellas_folder/135285580_1147794825654429_2369208977162709237_n_zenqkh.jpg",
+    "foundation": 8
 }
 
 ### News 4
 POST {{api}}/news
 Content-Type: application/json
 
+
 {
     "title": "Disney encuentra un hogar feliz",
     "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
     "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659198562/Huellas_folder/EdzmeuDXsAgGNLZ_reuckf.jpg"],
-    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196303/Huellas_folder/39229072_440775793085411_3835681862940884992_n_bplolj.jpg",
-    "foundation": 4
+    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196139/Huellas_folder/images_bq8nfn.png",
+    "foundation": 1
 }
 
 ### News 5
@@ -54,10 +55,10 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Disney encuentra un hogar feliz",
-    "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659196576/Huellas_folder/116420315_10158358571546047_911541206074533929_n_m8n2qj.jpg"],
-    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196139/Huellas_folder/images_bq8nfn.png",
+    "title": "Amor a primera vista",
+    "description": "Mariano y Laura no dudaron ni un instante al ver a nuestro querido Rocco. Una huella más se ha salvado, y una familia más se ha formado.",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462242/Huellas_folder/adoptant_c_jshxd5.png"],
+    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196576/Huellas_folder/116420315_10158358571546047_911541206074533929_n_m8n2qj.jpg",
     "foundation": 6
 }
 
@@ -66,10 +67,10 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Disney encuentra un hogar feliz",
-    "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
-    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659196664/Huellas_folder/135285580_1147794825654429_2369208977162709237_n_zenqkh.jpg"],
-    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196139/Huellas_folder/images_bq8nfn.png",
+    "title": "Una nueva amistad",
+    "description": "Manchitas ha partido de nuestro cuidado para seguir su camino de vida junto a Juan.",
+    "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462295/Huellas_folder/adoptant_d_v9khc4.png"],
+    "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196664/Huellas_folder/135285580_1147794825654429_2369208977162709237_n_zenqkh.jpg",
     "foundation": 8
 }
 
@@ -79,18 +80,9 @@ Content-Type: application/json
 
 {
     "title": "URGENTE: RAMONA NOS NECESITA",
-    "description": "La semana pasada recibimos a Ramona, una gatita con apenas 6 meses que tiene una fractura en el tercio distal del húmero derecho y debe ingresar a cirugía cuanto antes. 
-
-    El gasto de los últimos 30 días superó los $200.000. Actualmente tenemos una deuda de más de $100.000 que aún no pudimos cubrir.
-
-    Más allá de esta deuda, la cirugía de mañana la realizamos en Veterinaria Honorio y debemos abonarla en el acto, es por esto que recurrimos a ustedes. Una vez más los necesitamos!
-
-    Sabemos que son momentos difíciles, pero cualquier colaboración suma y es muy agradecida. También podes difundir esta publicación así llegamos a más personas!
-
-    No nos dejen solas, Ramona no puede esperar y cada minuto qué pasa cuenta.
-",
+    "description": "La semana pasada recibimos a Ramona, una gatita con apenas 6 meses que tiene una fractura en el tercio distal del húmero derecho y debe ingresar a cirugía cuanto antes. El gasto de los últimos 30 días superó los $200.000. Actualmente tenemos una deuda de más de $100.000 que aún no pudimos cubrir. Más allá de esta deuda, la cirugía de mañana la realizamos en Veterinaria Honorio y debemos abonarla en el acto, es por esto que recurrimos a ustedes. Una vez más los necesitamos! Sabemos que son momentos difíciles, pero cualquier colaboración suma y es muy agradecida. También podes difundir esta publicación así llegamos a más personas! No nos dejen solas, Ramona no puede esperar y cada minuto qué pasa cuenta.",
     "images": [
-        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659459651/Huellas_folder/news_7_itrljx.png",
+        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659459651/Huellas_folder/news_7_itrljx.png"
     ],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg",
     "foundation": 2,
@@ -102,14 +94,9 @@ Content-Type: application/json
 
 {
     "title": "ESTAMOS EN EMERGENCIA Y NECESITAMOS TU AYUDA",
-    "description": "Una vez más nos encontramos en emergencia, esta vez tenemos alrededor de 40mil pesos de deuda y estamos desesperadas🙏🏻
-
-    Debemos dinero a nuestras veterinarias de confianza y a nuestros tránsitos (tuvimos que pedirles que paguen con sus tarjetas porque realmente no tenemos un peso)
-
-    NO podemos seguir rescatando ni mantener a nuestras garritas en tránsito hasta que paguemos las deudas. Te pedimos que si está en tus posibilidades nos des una patita, te lo agradecemos de ❤️
-",
+    "description": "Una vez más nos encontramos en emergencia, esta vez tenemos alrededor de 40mil pesos de deuda y estamos desesperadas🙏🏻 Debemos dinero a nuestras veterinarias de confianza y a nuestros tránsitos (tuvimos que pedirles que paguen con sus tarjetas porque realmente no tenemos un peso). NO podemos seguir rescatando ni mantener a nuestras garritas en tránsito hasta que paguemos las deudas. Te pedimos que si está en tus posibilidades nos des una patita, te lo agradecemos de ❤️",
     "images": [
-        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659460145/Huellas_folder/news_8_uc0mrk.png",
+        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659460145/Huellas_folder/news_8_uc0mrk.png"
     ],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196223/Huellas_folder/cabeza-gato-lindo-logo-dibujos-animados-cabeza-gato-bueno-productos-relacionados-cuidado-gatos_487414-292_ppb8mx.webp",
     "foundation": 3,
@@ -122,14 +109,9 @@ Content-Type: application/json
 
 {
     "title": "NEMO NECESITA UNA PATA",
-    "description": "Nemo tiene solo 2 meses de vida y su situación es realmente complicada. Tiene sus dos patas de atrás comprometidas, prácticamente destrozadas.
-
-    Debemos operarlo de urgencia y el costo de la operación asciende a $47.000.
-
-    Su pronóstico no es el mejor, pero debemos hacer hasta lo imposible para poder darle una oportunidad y necesitamos la ayuda de todos ustedes para poder hacerlo posible. 
-",
+    "description": "Nemo tiene solo 2 meses de vida y su situación es realmente complicada. Tiene sus dos patas de atrás comprometidas, prácticamente destrozadas. Debemos operarlo de urgencia y el costo de la operación asciende a $47.000. Su pronóstico no es el mejor, pero debemos hacer hasta lo imposible para poder darle una oportunidad y necesitamos la ayuda de todos ustedes para poder hacerlo posible. Súmate difundiendo todo lo que puedas está publicación, mientras más conozcan su historial, más chances tenemos de recibir ayuda.",
     "images": [
-        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659461023/Huellas_folder/news_9_olxeve.png",
+        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659461023/Huellas_folder/news_9_olxeve.png"
     ],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196664/Huellas_folder/135285580_1147794825654429_2369208977162709237_n_zenqkh.jpg",
     "foundation": 8,
