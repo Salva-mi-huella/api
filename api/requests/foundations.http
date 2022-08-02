@@ -1,4 +1,5 @@
-@api = https://salva-mi-huella-api.herokuapp.com
+# @api = https://salva-mi-huella-api.herokuapp.com
+@api = http://localhost:4000
 
 ### Foundation 1
 POST {{api}}/foundations
@@ -34,7 +35,7 @@ Content-Type: application/json
     "telephone_number": "(240) 824-8794",
     "email": "wotagoy136@falsy.com",
     "images": [
-        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg" ]
+        "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg" ],
     "website": null,
     "instagram": "https://www.instagram.com/gatitosdepalermo/?hl=es"
 }
@@ -146,7 +147,7 @@ POST {{api}}/foundations
 Content-Type: application/json
 
 {
-    "name": "Patias Glew",
+    "name": "Patitas Glew",
     "state": "Buenos Aires",
     "city": "Glew",
     "address": "Piedad 124",
