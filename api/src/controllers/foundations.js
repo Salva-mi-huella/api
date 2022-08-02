@@ -2,11 +2,11 @@ const { Foundation, Pet, Request_adopt, Donation, News } = require("../db");
 
 const postFoundation = async (req, res) => {
 
-  	let { name, state, city, address, telephone_number } = req.body;
+  	const { name, state, city, address, telephone_number, description } = req.body;
 
 	try {
 		const nameExists = name ? await Foundation.findOne({ where: { name }}) : null;
-		if (!name || !state || !city || !address || !telephone_number) return res.status(400).json({ message: "Missing data"});
+		if (!name || !state || !city || !address || !telephone_number || !description) return res.status(400).json({ message: "Missing data"});
 		
 		if (nameExists) return res.status(400).json({ message: "Name already exists" });
 			
