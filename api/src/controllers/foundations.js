@@ -1,4 +1,4 @@
-const { Foundation, Pet, Request_adopt, Donation, News } = require("../db");
+const { Foundation, Pet, Request_adopt, Donation, News, Message } = require("../db");
 
 const postFoundation = async (req, res) => {
 
@@ -23,7 +23,7 @@ const getFoundations = async (req, res) => {
 
 	try {
 		let foundations = await Foundation.findAll({
-			include: [Request_adopt, Donation, News, Pet]
+			include: [Request_adopt, Donation, News, Pet, Message]
 		});
 
 		if (name) {
@@ -50,7 +50,7 @@ const getFoundationByEmailOrID = async (req, res) => {
 	try {
 		if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(param)) {
 			foundation = await Foundation.findOne({ where: { email: param }}, {
-				include: [Request_adopt, Pet, Donation, News]
+				include: [Request_adopt, Pet, Donation, News, Message]
 			});
 		}
 		else {
