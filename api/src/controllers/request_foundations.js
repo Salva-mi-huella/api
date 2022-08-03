@@ -31,7 +31,33 @@ const getRequestFoundations = async (req, res) => {
     }
 }
 
+const updateRequestFoundations = async (req, res) => {
+    const { id } = req.params;
+    const { name, email, telephone, post_date, message, status } = req.body;
+
+    try {
+        const request = await Request_foundation.findByPk(id);
+        
+        if (!request) return res.status(400).json({ message: "Request not found" });
+        
+        const updatedRequest = await Request_foundation.update({
+            name: name,
+            email: email,
+            telephone: telephone,
+            post_date: post_date,
+            message: message,
+            status: status
+        }, { where: { id }});
+
+        updatedRequest ? res.json("Request updated successfully") : res.status(400).json({ message: "The data has not been updated"});
+    } 
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
 module.exports = {
     postRequestFoundations,
-    getRequestFoundations
+    getRequestFoundations,
+    updateRequestFoundations
 }

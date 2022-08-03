@@ -30,8 +30,8 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     status: {
-				type: DataTypes.ENUM("Pendiente", "Aprobada", "Rechazada"),
-				defaultValue: "Pendiente"
+	  	  type: DataTypes.ENUM("Pendiente", "Aprobada", "Rechazada"),
+		    defaultValue: "Pendiente"
     }
   },{timestamps: false});
 };
