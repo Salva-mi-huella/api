@@ -30,8 +30,36 @@ const getRequestAdopt = async (req, res) => {
     }
 }
 
+const updateRequestAdopts = async (req, res) => {
+    const { id } = req.params;
+    const { name, lastname, email, phone, age, status, post_date, textarea } = req.body;
+
+    try {
+        const request = await Request_adopt.findByPk(id);
+        
+        if (!request) return res.status(400).json({ message: "Request not found" });
+        
+        const updatedRequest = await Request_adopt.update({
+            name: name,
+            lastname: lastname,
+            email: email,
+            phone: phone,
+            age: age,
+            status: status,
+            post_date: post_date,
+            textarea: textarea
+        }, { where: { id }});
+
+        updatedRequest ? res.json("Request updated successfully") : res.status(400).json({ message: "The data has not been updated"});
+    } 
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
 module.exports = {
     postRequestAdopt,
-    getRequestAdopt
+    getRequestAdopt,
+    updateRequestAdopts
 }
 
