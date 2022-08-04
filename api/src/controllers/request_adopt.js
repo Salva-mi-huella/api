@@ -5,9 +5,9 @@ const postRequestAdopt = async (req, res) => {
 
     if (!name || !lastname || !email || !phone || !age || !textarea) return res.status(400).json({ message: "Mising data "});
 
+    if (age < 18) return res.status(400).json({ message: "You have to be of legal age to adopt" });
+    
     try {
-        if (age < 18) return res.status(400).json({ message: "You have to be of legal age to adopt" });
-
         const request = await Request_adopt.create(req.body);
         await request.setFoundation(foundation);
         await request.setPet(pet);

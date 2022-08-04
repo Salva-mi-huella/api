@@ -4,19 +4,22 @@ const {Product} = require("../db");
 const postProduct = async (req, res) => {
     const { name, points, type, category } = req.body;
     
-    try {
-        const productExists = name ? await Product.findOne({ where: { name }}) : null;
-        if (!name || !points || !type || !category) {
-            return res.status(400).json({ message: "Missing data" });
-        }
+    if (!name || !points || !type || !category) {
+        return res.status(400).json({ message: "Missing data" });
+    }
 
-        if (productExists) return res.status(400).json({ message: "Product already exists" });
+    const productExists = await Product.findOne({ where: { name }});
+    if (productExists) return res.status(400).json({ message: "Product already exists" });
+    
+    try {
         const product = await Product.create(req.body);
+        
         return res.json(product);
-    } catch (error) {
+    } 
+    catch (error) {
         return res.status(404).json({ message: error.message });
     }
-    }
+}
 
 
 // ---------------------RUTA GET PRODUCTOS--------------------------

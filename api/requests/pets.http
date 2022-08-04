@@ -491,7 +491,7 @@ Content-Type: application/json
     "type": "Perro",
     "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659122362/Huellas_folder/Sin_t%C3%ADtulsaas_mrqr5n_w8qvub.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122363/Huellas_folder/Sin_t%C3%ADtasaeulo_cwhxc9_azf5cx.png", "https://res.cloudinary.com/djasy7hxk/image/upload/v1659122364/Huellas_folder/Sin_t%C3%ADtaulo_ywjwtw_fnmjzo.png"],
     "age": "5 meses",
-    "gender": "Perro",
+    "gender": "Macho",
     "post_date": "2022-07-17",
     "description": "Mirá la evolución de Paquito y decinos sino está %100 recuperado como para tener un hogar definitivo🏠🐶Dale una oportunidad a un rescatado. ADOPTÁ a Paquito🙌",
     "foundation": 1

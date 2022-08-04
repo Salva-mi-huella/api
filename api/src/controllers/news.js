@@ -3,6 +3,11 @@ const { News, Foundation } = require("../db");
 //RUTA PARA POST NEWS
 const postNews = async (req,res) =>{
     const { title, foundation, description, images } = req.body;
+
+    const newExists = await News.findOne({ where: { title }});
+
+    if (newExists) return res.status(400).json({ message: "New already exists" });
+
     try {
         if (!title || !description || !images) {
             return res.status(400).json({ message: "Missing data" });

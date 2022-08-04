@@ -3,19 +3,19 @@ const { Pet, Foundation } = require("../db");
 const postPet = async (req, res) => {
 	const { name, age, gender, description, foundation } = req.body;
 	
+	if (!name || !age || !gender || !description) {
+		return res.status(400).json({ message: "Missing data" });
+	}
+	
+	const petExists = await Pet.findOne({ where: { description }});
+	if (petExists) return res.status(400).json({ message: "Pet already exists" });
+
 	try {
-		if (!name || !age || !gender || !description) {
-			return res.status(400).json({ message: "Missing data" });
-		}
-
-		const petExists = await Pet.findOne({ where: { description }});
-
-		if (!petExists) {
-			const pet = await Pet.create(req.body);
-			pet.setFoundation(foundation);
-			return res.json(pet);
-		}
-		return res.status(400).json({ message: "Pet already exists" });
+		const pet = await Pet.create(req.body);
+		
+		pet.setFoundation(foundation);
+		
+		return res.json(pet);
 	} 
 	catch (error) {
 		return res.status(404).json({ message: error.message });
