@@ -63,6 +63,7 @@ module.exports = (sequelize) => {
     },
     status:{
       type: DataTypes.ENUM("Activa", "Inactiva"),
+      defaultValue: "Activa"
     },
     images:{
       type: DataTypes.ARRAY(DataTypes.STRING(1234)),
