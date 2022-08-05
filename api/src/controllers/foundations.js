@@ -68,7 +68,7 @@ const getFoundationByEmailOrID = async (req, res) => {
 
 const putFoundation = async (req, res) =>{
 	const { id } = req.params;
-	const { name, state, city, address, lat, lng, telephone_number, email, instagram, website, images } = req.body;
+	const { name, state, city, address, lat, lng, telephone_number, email, instagram, website, images,status } = req.body;
     try {
 		const response = await Foundation.update({
 			name: name,
@@ -81,6 +81,7 @@ const putFoundation = async (req, res) =>{
 		    email: email,
 	        instagram: instagram,
 	        website: website,
+			status: status,
 	        images: images,}, {where: { id }}
 		)
 		response ? res.json({message: "Data updated successfully"}) : res.status(400).json({ message: "The data has not been updated"});
