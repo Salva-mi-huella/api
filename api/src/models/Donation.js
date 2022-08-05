@@ -18,7 +18,7 @@ module.exports = (sequelize) => {
         allowNull: false
     },
     method: {
-        type : DataTypes.ENUM("paypal", "mercadoPago"),
+        type: DataTypes.ENUM("paypal", "mercadoPago"),
         allowNull: false
     },
     currency:{
