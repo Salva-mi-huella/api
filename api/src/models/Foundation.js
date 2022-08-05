@@ -61,6 +61,9 @@ module.exports = (sequelize) => {
     bank: {
       type: DataTypes.STRING
     },
+    status:{
+      type: DataTypes.ENUM("Activa", "Inactiva"),
+    },
     images:{
       type: DataTypes.ARRAY(DataTypes.STRING(1234)),
     }
