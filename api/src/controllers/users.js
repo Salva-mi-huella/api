@@ -1,4 +1,4 @@
-const { User, Foundation, Request_adopt, Donation } = require("../db");
+const { User, Foundation, Request_adopt, Donation, Product } = require("../db");
 
 const checkUser = async (req, res) => {
     const { nickname, name, email, } = req.body;
@@ -24,7 +24,7 @@ const checkUser = async (req, res) => {
 const getUsers = async (req, res) => {
     
     try {
-        const users = await User.findAll({include: [Request_adopt, Donation]});
+        const users = await User.findAll({include: [Request_adopt, Donation, Product]});
         return res.json(users);
     }
     catch (error) {
@@ -36,7 +36,7 @@ const getUserByEmail = async (req, res) => {
     const { email } = req.params;
 
     try {
-        const user = await User.findOne({ where: { email }, include: [Request_adopt, Donation]} );
+        const user = await User.findOne({ where: { email }, include: [Request_adopt, Donation, Product]} );
 
         user ? res.json(user) : res.status(400).json({ message: "User not found " });
     }
@@ -47,13 +47,18 @@ const getUserByEmail = async (req, res) => {
 
 const putUser = async (req, res) => { 
     const { email: paramEmail } = req.params;
-    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points, transit, favs, admin } = req.body;
+    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points, transit, favs, admin, products } = req.body;
     
     const userExists = await User.findOne({ where: { email: paramEmail }});
 
     if (!userExists) return res.status(400).json({ message: "User not found"});
 
     try {
+        if (products) {
+            const findUser = await User.findOne({ where: { email: paramEmail }});
+            await findUser.addProducts(products);
+        }
+
         const response = await User.update(
             {
                 nickname: nickname,

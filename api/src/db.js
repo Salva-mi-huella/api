@@ -70,6 +70,7 @@ Foundation.hasMany(News);
 News.belongsTo(Foundation);
 Message.belongsTo(Foundation);
 Foundation.hasMany(Message);
+User.hasMany(Product);
 
 // RELACION 1:N (Foundation - RequestAdopt- User)
 Foundation.hasMany(Request_adopt);
