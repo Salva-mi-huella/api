@@ -66,7 +66,7 @@ module.exports = (sequelize) => {
       defaultValue: "Activa"
     },
     images:{
-      type: DataTypes.ARRAY(DataTypes.STRING(1234)),
+      type: DataTypes.ARRAY(DataTypes.STRING()),
     }
   },{
     timestamps: false,
