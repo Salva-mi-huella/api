@@ -43,7 +43,7 @@ Content-Type: application/json
 
 
 {
-    "title": "Disney encuentra un hogar feliz",
+    "title": "Disney encuentra un hogar feliz II",
     "description": "Orgullosa con su moño naranja brillante, nuestra amada camperita barbincha se fue a cumplir su sueño. Ese que soñamos para todos nuestros perros: un hogar",
     "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659198562/Huellas_folder/EdzmeuDXsAgGNLZ_reuckf.jpg"],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196139/Huellas_folder/images_bq8nfn.png",
@@ -55,7 +55,7 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Amor a primera vista",
+    "title": "Amor a primera vista II",
     "description": "Mariano y Laura no dudaron ni un instante al ver a nuestro querido Rocco. Una huella más se ha salvado, y una familia más se ha formado.",
     "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462242/Huellas_folder/adoptant_c_jshxd5.png"],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196576/Huellas_folder/116420315_10158358571546047_911541206074533929_n_m8n2qj.jpg",
@@ -67,7 +67,7 @@ POST {{api}}/news
 Content-Type: application/json
 
 {
-    "title": "Una nueva amistad",
+    "title": "Una nueva amistad II",
     "description": "Manchitas ha partido de nuestro cuidado para seguir su camino de vida junto a Juan.",
     "images": ["https://res.cloudinary.com/djasy7hxk/image/upload/v1659462295/Huellas_folder/adoptant_d_v9khc4.png"],
     "foundationsImage": "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196664/Huellas_folder/135285580_1147794825654429_2369208977162709237_n_zenqkh.jpg",
