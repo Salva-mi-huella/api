@@ -47,7 +47,7 @@ const getUserByEmail = async (req, res) => {
 
 const putUser = async (req, res) => { 
     const { email: paramEmail } = req.params;
-    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points, transit, favs, admin, products } = req.body;
+    const { nickname, name, email, birthday, picture, city, dni, telephone_number, address, points, transit, favs, admin, products, lastname} = req.body;
     
     const userExists = await User.findOne({ where: { email: paramEmail }});
 
@@ -63,6 +63,7 @@ const putUser = async (req, res) => {
             {
                 nickname: nickname,
                 name: name,
+                lastname: lastname,
                 email: email,
                 picture: picture,
                 city: city,
