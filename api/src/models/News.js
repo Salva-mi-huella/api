@@ -30,7 +30,7 @@ module.exports = (sequelize) => {
       defaultValue: DataTypes.NOW
     },
     images: {
-      type: DataTypes.ARRAY(DataTypes.STRING(1234)),
+      type: DataTypes.ARRAY(DataTypes.STRING),
     },
   },{
     timestamps: false,
