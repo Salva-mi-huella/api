@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const {postNews, getNews, getNewByID} = require('../controllers/news');
 
-router.get("/", (req, res) => {
-    res.send("Home")
-});
+router.post("/", postNews);
+router.get("/", getNews);
+router.get("/:id", getNewByID);
 
 module.exports = router;
