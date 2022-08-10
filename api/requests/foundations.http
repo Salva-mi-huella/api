@@ -9,7 +9,7 @@ Content-Type: application/json
     "name": "Refugio el Campito",
     "state": "Buenos Aires",
     "city": "Monte Grande",
-    "address": "ruta 16 Parc 501",
+    "address": "Ruta 16 Parc 501",
     "description": "El Campito Refugio es una ONG, sin fines de lucro. Estamos inscriptos, como Asociación Civil, REFUGIO EL CAMPITO personeria juridica n° 6971, Ruta16 Parcela 501 E Monte Grande, Partido de Esteban Echeverría, zona sur del Gran Buenos Aires, en Argentina. El refugio tiene una población que ronda los 750 perros. El trabajo de rescate y recuperación NO TIENE PRECEDENTES EN AMERICA LATINA.  Por ser un REFUGIO NO EUTANÁSICO no considera inviable a ninguno de sus animales. Lo que lo hace ÚNICO EN EL MUNDO son sus 120 perros paraliticos, ellos no pueden caminar y usan carritos hechos a medida; además viven en el refugio 50 ciegos, y más de 250 viejitos, Muchos de ellos están en tratamiento por problemas renales, hepáticos, cardíacos, oncológicos o diabéticos.",
     "lat": "-34.879850",
     "lng": "-58.417770",
@@ -35,7 +35,7 @@ Content-Type: application/json
     "lat": "-34.577180",
     "lng": "-58.424060",
     "telephone_number": "(240) 824-8794",
-    "email": "wotagoy136@falsy.com",
+    "email": "gatitospalermo@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196176/Huellas_folder/13501833_490423977819735_2259851025882273895_n_khewny.jpg"],
     "website": null,
@@ -55,7 +55,7 @@ Content-Type: application/json
     "lat": "-34.535460",
     "lng": "-58.474820",
     "telephone_number": "11-6014-1347",
-    "email": "elcampitofelino@yahoo.com",
+    "email": "elcampitofelino@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196223/Huellas_folder/cabeza-gato-lindo-logo-dibujos-animados-cabeza-gato-bueno-productos-relacionados-cuidado-gatos_487414-292_ppb8mx.webp"
     ],
@@ -76,7 +76,7 @@ Content-Type: application/json
     "lat": "-34.763610",
     "lng": "-58.368260",
     "telephone_number": "+54 9 11 5761-0101",
-    "email": "info@naricitasfrias.com.ar",
+    "email": "naricitasfrias@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196303/Huellas_folder/39229072_440775793085411_3835681862940884992_n_bplolj.jpg"
     ],
@@ -97,7 +97,7 @@ Content-Type: application/json
     "lat": "-34.632730",
     "lng": "-58.790210",
     "telephone_number": "1161812944",
-    "email": "refugiofelizadopciones@gmail.com",
+    "email": "refugiofeliz@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196507/Huellas_folder/360685_d863fbdb4fb24d5da0555d0e1550a675_mv2_zqfrvn.webp",
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196507/Huellas_folder/BL4v9x9gTv6GDtJV4idA_p1d9fv755y4O1F6Z_eonhyr.png"
@@ -119,7 +119,7 @@ Content-Type: application/json
     "lat": "-34.613430",
     "lng": "-58.446190",
     "telephone_number": "(992) 883-3934",
-    "email": "info@proyecto4patas.org",
+    "email": "cuatropatas@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196576/Huellas_folder/116420315_10158358571546047_911541206074533929_n_m8n2qj.jpg"
     ],
@@ -140,7 +140,7 @@ Content-Type: application/json
     "lat": "-34.763520",
     "lng": "-58.391440",
     "telephone_number": "011 15-5617-9472",
-    "email": "mascotasenadopcionargentina@gmail.com",
+    "email": "ayudacan@hotmail.com",
     "images": [
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196618/Huellas_folder/ayudacan_logo_chico-725567_sjamgs.jpg",
         "https://res.cloudinary.com/djasy7hxk/image/upload/v1659196618/Huellas_folder/ayudacan-favicon-512-300x300_annx7e.png"
