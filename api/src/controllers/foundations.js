@@ -68,7 +68,7 @@ const getFoundationByEmailOrID = async (req, res) => {
 
 const putFoundation = async (req, res) =>{
 	const { id } = req.params;
-	const { name, state, city, address, lat, lng, telephone_number, email, instagram, website, images,status,description,cbu,bank,alias } = req.body;
+	const { name, state, city, address, lat, lng, telephone_number, email, instagram, website, images,status,description,CBU,bank,alias } = req.body;
     try {
 		const response = await Foundation.update({
 			name: name,
@@ -80,7 +80,7 @@ const putFoundation = async (req, res) =>{
 		    telephone_number: telephone_number,
 		    email: email,
 			description: description,
-			CBU: cbu,
+			CBU: CBU,
 			bank: bank,
 			alias: alias,
 	        instagram: instagram,
