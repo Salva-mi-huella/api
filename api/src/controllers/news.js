@@ -36,7 +36,8 @@ const getNews = async (req,res) =>{
             }
             return res.status(400).json({ message: "News not found" });
         }
-        return res.json(news);
+               
+        return res.json(news.reverse());
     } catch (error) {
         res.status(404).json({ message: error.message });
     }
