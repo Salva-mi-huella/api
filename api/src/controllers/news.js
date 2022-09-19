@@ -60,8 +60,24 @@ const getNewByID = async (req, res) => {
 	}
 }
 
+const deleteNews = async (req, res) => {
+    const { id } = req.params;
+
+    const newExists = await News.findOne({ where: { id }});
+    if (!newExists) return res.status(400).json({ message: "New not exists" });
+
+    try {
+        const deletedUser = await News.destroy({ where: { id } });
+        if (deletedUser) return res.json({ message: "New deleted successfully" });
+    }
+    catch (error) {
+        return res.status(404).json({ message: error.message });
+    }
+}
+
 module.exports = {
     postNews,
     getNews,
-    getNewByID
+    getNewByID,
+    deleteNews
 }
