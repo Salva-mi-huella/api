@@ -13,6 +13,7 @@ const sequelize = process.env.NODE_ENV === "production"
     host: DB_HOST,
     username: DB_USER,
     password: DB_PASSWORD,
+    port: DB_PORT,
     pool: {
       max: 3,
       min: 1,
